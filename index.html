@@ -60,6 +60,19 @@
           </ul>
         </div>
       </div>
+      
+
+<div class="container" id="contenedor">
+
+    <div class="reloj" id="Horas">00</div>
+    <div class="reloj" id="Minutos">:00</div>
+    <div class="reloj" id="Segundos">:00</div>
+    <div class="reloj" id="Centesimas">:00</div>
+    <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+    <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+    <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+    <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+  </div>
     </nav>
 
 <div id="fullpage">
@@ -90,6 +103,12 @@
         </div>
       </div>
     </header>
+
+
+
+
+
+
 
     <section class="section download bg-primary text-center" id="seccion2">
       <div class="container">
@@ -233,6 +252,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/mostrar-datos.js"></script>
     <script src="js/carga-tabla.js"></script> 
+    <script src="js/reloj-lav.js"></script> 
 
 
     <!-- Custom scripts for this template 
