@@ -1,34 +1,36 @@
+
+
+
+// (function(){
+// 	var contador = 0;
+// 	var saludo = function(){
+// 	contador++;
+// 	console.log(contador);
+	
+
+// 	if (contador === 5){
+// 		clearInterval(intervalo);
+// 	}
+
+// };
+
+// var intervalo = setInterval(saludo, 1000);
+// }())
+
+
+
+
 var centesimas = 0;
 var segundos = 0;
 var minutos = 0;
 var horas = 0;
-function inicio () {
+
+function contenedor () {
 	control = setInterval(cronometro,10);
-	document.getElementById("inicio").disabled = true;
-	document.getElementById("parar").disabled = false;
-	document.getElementById("continuar").disabled = true;
-	document.getElementById("reinicio").disabled = false;
+	document.getElementById("contenedor").disabled= false;
+
 }
-function parar () {
-	clearInterval(control);
-	document.getElementById("parar").disabled = true;
-	document.getElementById("continuar").disabled = false;
-}
-function reinicio () {
-	clearInterval(control);
-	centesimas = 0;
-	segundos = 0;
-	minutos = 0;
-	horas = 0;
-	Centesimas.innerHTML = ":00";
-	Segundos.innerHTML = ":00";
-	Minutos.innerHTML = ":00";
-	Horas.innerHTML = "00";
-	document.getElementById("inicio").disabled = false;
-	document.getElementById("parar").disabled = true;
-	document.getElementById("continuar").disabled = true;
-	document.getElementById("reinicio").disabled = true;
-}
+contenedor ()
 function cronometro () {
 	if (centesimas < 99) {
 		centesimas++;
@@ -60,3 +62,6 @@ function cronometro () {
 		Horas.innerHTML = horas;
 	}
 }
+
+
+//function trazadorTemporal = 

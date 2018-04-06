@@ -4,8 +4,7 @@ document.querySelector('#btn-enviar').addEventListener('click',salvarCampo);
 impTablaCampos()
 
 function salvarCampo(){
-	var sIp = document.querySelector('#textIp').value,
-		sNombre = document.querySelector('#textNombre').value,
+	var sNombre = document.querySelector('#textNombre').value,
 		sApellido = document.querySelector('#textApellido').value,
 		sDireccion = document.querySelector('#textDireccion').value,
 		sEmail = document.querySelector('#textEmail').value;
