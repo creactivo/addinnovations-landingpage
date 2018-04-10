@@ -32,3 +32,4 @@ const countdown = (deadline, elem, finalMassage) => {
 
 };
 countdown('May 02 2019 16:10:02 GMT-0500','clock', 'feliz dia');
+

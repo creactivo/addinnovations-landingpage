@@ -1,6 +1,4 @@
 
-
-
 // (function(){
 // 	var contador = 0;
 // 	var saludo = function(){
@@ -63,5 +61,5 @@ function cronometro () {
 	}
 }
 
-
+// document.write(contenedor);
 //function trazadorTemporal = 
