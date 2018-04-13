@@ -1,10 +1,7 @@
 // Styling for the features
-section.add-4 {
+section.add-19 {
     background-color:#BCBAB7 !important;
     h1 {
-        position: relative;
-        right: 30px;
-        top: -25px;
         font-family: 'Calligraffitti', cursive;
         font-size: 3.5rem;
         font-weight: 800;
@@ -45,6 +42,7 @@ section.add-4 {
     }
     @media(min-width: 768px) {
     h1 {
+        position: relative;
         right: 250px;
         top: 30px;
         font-family: 'Calligraffitti', cursive;

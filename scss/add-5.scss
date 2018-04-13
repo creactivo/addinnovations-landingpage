@@ -1,10 +1,7 @@
 // Styling for the features
-section.add-4 {
-    background-color:#BCBAB7 !important;
+section.add-5 {
+    background-color:yellow !important;
     h1 {
-        position: relative;
-        right: 30px;
-        top: -25px;
         font-family: 'Calligraffitti', cursive;
         font-size: 3.5rem;
         font-weight: 800;
@@ -25,8 +22,8 @@ section.add-4 {
     line-height: 1px;
     bottom: 127px;
     left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
     transform: rotate(-19deg);
     }
     .section-heading {
@@ -45,8 +42,9 @@ section.add-4 {
     }
     @media(min-width: 768px) {
     h1 {
-        right: 250px;
-        top: 30px;
+        position: relative;
+        right: 145px;
+        top: 10px;
         font-family: 'Calligraffitti', cursive;
         font-size: 10rem;
         font-weight: 800;
@@ -55,7 +53,7 @@ section.add-4 {
     h2 {
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 5rem;
+        font-size: 10rem;
         line-height: 4.5rem;
         font-weight: 800;
         text-transform: uppercase;
@@ -67,10 +65,10 @@ section.add-4 {
     font-size: 54rem;
     line-height: 1px;
     bottom: 198px;
-    left: 343px;
-    -ms-transform: rotate(-27deg); /* IE 9 */
-    -webkit-transform: rotate(-27deg); /* Safari 3-8 */
-    transform: rotate(-27deg);
+    left: 525px;
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari 3-8 */
+    transform: rotate(10deg);
     }
 }
     .feature-item {
