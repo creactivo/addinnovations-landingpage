@@ -1,11 +1,27 @@
-// Styling for the download section
+/*// Styling for the download section*/
 section.download {
+    color:#fff;
+    background-attachment: cover;
+    background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%,#120f0f 100%);
+    background: radial-gradient(ellipse at center, #233f70 3%,#120f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+    background-size: inherit;   
     position: relative;
     padding:0;
-    h2 {
-        font-size: 50px;
-        margin-top: 0;
+    h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 3.5rem;
+        font-weight: 800;
     }
+    h2 {
+        color:yellow;
+        font-family: 'Exo', sans-serif;
+        font-size: 3.5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
     .badges {
         .badge-link {
             display: block;
@@ -23,8 +39,21 @@ section.download {
         }
     }
     @media(min-width: 768px) {
-        h2 {
-            font-size: 70px;
-        }
+        h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 10rem;
+        // font-weight: 800;
+    }
+    h2 {
+        color:yellow;
+        font-family: 'Exo', sans-serif;
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: 4rem;
+        text-transform: uppercase;
+    }
+    h2 span {
+        line-height: 6rem;
+    }
     }
 }

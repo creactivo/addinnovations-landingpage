@@ -1,6 +1,12 @@
 // Styling for the features
-section.features {
-    background-color:yellow!important;
+section.add-4 {
+    background-color:#BCBAB7 !important;
+    h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color:#fff;
+    }
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
@@ -20,7 +26,6 @@ section.features {
     -webkit-transform: rotate(-27deg);
     transform: rotate(-19deg);
     }
-    
     .section-heading {
     }
     .device-container,
@@ -36,6 +41,15 @@ section.features {
 
     }
     @media(min-width: 768px) {
+    h1 {
+        position: relative;
+        right: 250px;
+        top: 60px;
+        font-family: 'Calligraffitti', cursive;
+        font-size: 10rem;
+        font-weight: 800;
+        
+    }
     h2 {
         color:#000;
         font-family: 'Exo', sans-serif;
@@ -51,7 +65,7 @@ section.features {
     line-height: 1px;
     bottom: 198px;
     left: 343px;
-     -ms-transform: rotate(-27deg); /* IE 9 */
+    -ms-transform: rotate(-27deg); /* IE 9 */
     -webkit-transform: rotate(-27deg); /* Safari 3-8 */
     transform: rotate(-27deg);
     }

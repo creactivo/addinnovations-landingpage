@@ -1,22 +1,23 @@
 // Styling for the masthead
 header.masthead {
     position: relative;
-
+    background-attachment: cover;
+    background: url(../img/header-diapo-1.png) no-repeat top,-moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+    background: url(../img/header-diapo-1.png) no-repeat top,-webkit-radial-gradient(center, ellipse cover, #233f70 3%,#120f0f 100%);
+    background: url(../img/header-diapo-1.png) no-repeat top,radial-gradient(ellipse at center, #233f70 3%,#120f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+    background-size: inherit;   
     width: 100%;
-    padding-top: 150px;
-    padding-bottom: 100px;
-
-    color: white;
-    background: url('../img/bg-pattern.png'), $theme-secondary;
-    background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background: url('../img/bg-pattern.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    color: yellow;
     .header-content {
-        max-width: 500px;
+      /*  max-width: 500px;*/
         margin-bottom: 100px;
-
         text-align: center;
         h1 {
-            font-size: 30px;
+           font-family: 'Exo', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 800;
+            text-transform: uppercase;
         }
     }
     .device-container {
@@ -32,12 +33,14 @@ header.masthead {
         // min-height: 500px;
         padding-top: 0;
         padding-bottom: 0;
+        background-size: contain;
         .header-content {
             margin-bottom: 0;
-
             text-align: left;
             h1 {
-                font-size: 50px;
+        
+                font-size: 5rem;
+           
             }
         }
         .device-container {

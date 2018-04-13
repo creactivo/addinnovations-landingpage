@@ -10,7 +10,7 @@ function salvarCampo(){
 		sEmail = document.querySelector('#textEmail').value;
 
 
-		addCamposSistem(sIp,sNombre,sApellido,sDireccion,sEmail);
+		addCamposSistem(sNombre,sApellido,sDireccion,sEmail);
 impTablaCampos()
 }
 
