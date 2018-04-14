@@ -624,30 +624,43 @@ section.add-9 {
       -webkit-text-fill-color: transparent; }
 
 section.add-10 {
-  background-color: #BCBAB7 !important; }
+  background-color: yellow !important; }
   section.add-10 h1 {
-    font-family: 'Calligraffitti', cursive;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Exo', sans-serif;
     font-size: 3.5rem;
+    line-height: 2rem;
     font-weight: 800;
-    color: #fff; }
+    color: #000; }
   section.add-10 h2 {
+    display: block;
+    text-align: center;
     font-family: 'Exo', sans-serif;
     color: #000;
-    font-size: 3rem;
+    font-size: 1.9rem;
+    line-height: 2rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-10 span {
+  section.add-10 h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
     color: #000;
+    font-size: 2.5rem;
+    line-height: 2rem;
     font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.add-10 .device-container,
+    text-transform: uppercase; }
+  section.add-10 h4 {
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    font-size: 5.7rem;
+    line-height: 6rem;
+    font-weight: 800;
+    text-transform: uppercase; }
   section.add-10 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
@@ -655,18 +668,51 @@ section.add-10 {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
     section.add-10 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
+      color: #000;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      font-family: 'Exo', sans-serif;
+      font-size: 8.7rem;
+      font-weight: 800;
+      letter-spacing: -0.7rem;
+      line-height: 6.5rem; }
     section.add-10 h2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
       color: #000;
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 3.8rem;
+      line-height: 3rem;
       font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .3rem; }
+    section.add-10 h3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      color: #000;
+      font-family: 'Exo', sans-serif;
+      font-size: 5.2rem;
+      line-height: 5.5rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .2rem; }
+    section.add-10 h4 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      color: #000;
+      font-family: 'Exo', sans-serif;
+      font-size: 12rem;
+      line-height: 13rem;
+      font-weight: 800;
+      letter-spacing: 0rem;
       text-transform: uppercase; }
     section.add-10 span {
       color: #000;
@@ -700,30 +746,43 @@ section.add-10 {
       -webkit-text-fill-color: transparent; }
 
 section.add-11 {
-  background-color: #BCBAB7 !important; }
+  background-color: #9EE4E8 !important; }
   section.add-11 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
-  section.add-11 h2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
     font-family: 'Exo', sans-serif;
-    color: #000;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+    color: #000; }
+  section.add-11 h2 {
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 800; }
+  section.add-11 h3 {
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #052A56;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-11 span {
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.add-11 .device-container,
+  section.add-11 h4 {
+    display: block;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic; }
   section.add-11 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
@@ -731,75 +790,54 @@ section.add-11 {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
     section.add-11 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
-    section.add-11 h2 {
-      color: #000;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      font-weight: 800;
+      color: #000; }
+    section.add-11 h2 {
+      display: block;
+      text-align: center;
+      font-family: 'Exo', sans-serif;
+      color: #fff;
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+      font-weight: 800; }
+    section.add-11 h3 {
+      display: block;
+      text-align: center;
+      font-family: 'Exo', sans-serif;
+      color: #052A56;
+      font-size: 3.5rem;
+      line-height: 3.5rem;
       font-weight: 800;
       text-transform: uppercase; }
-    section.add-11 span {
-      color: #000;
-      font-weight: 800;
-      position: absolute;
-      font-size: 54rem;
-      line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
-  section.add-11 .feature-item {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center; }
-    section.add-11 .feature-item h3 {
-      font-size: 20px; }
-    section.add-11 .feature-item i {
-      font-size: 60px;
+    section.add-11 h4 {
       display: block;
-      margin-bottom: 15px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-      background: -webkit-linear-gradient(right, #7b4397, #dc2430);
-      background: -o-linear-gradient(right, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+      text-align: center;
+      font-family: 'Exo', sans-serif;
+      color: #fff;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-style: italic; } }
 
 section.add-12 {
-  background-color: #BCBAB7 !important; }
-  section.add-12 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
+  background-color: #ff7f00 !important; }
   section.add-12 h2 {
     font-family: 'Exo', sans-serif;
     color: #000;
     font-size: 3rem;
-    font-weight: 800;
-    text-transform: uppercase; }
-  section.add-12 span {
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.add-12 .device-container,
+    font-weight: 800; }
+    section.add-12 h2 span {
+      color: #000;
+      font-weight: 800;
+      font-size: 3rem;
+      line-height: 1px; }
   section.add-12 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
@@ -818,21 +856,12 @@ section.add-12 {
       font-family: 'Exo', sans-serif;
       font-size: 5rem;
       line-height: 4.5rem;
-      font-weight: 800;
-      text-transform: uppercase; }
-    section.add-12 span {
-      color: #000;
-      font-weight: 800;
-      position: absolute;
-      font-size: 54rem;
-      line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
+      font-weight: 800; }
+      section.add-12 h2 span {
+        color: #000;
+        font-weight: 800;
+        font-size: 14rem;
+        line-height: 1px; } }
   section.add-12 .feature-item {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -851,92 +880,113 @@ section.add-12 {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
-section.add-13 {
-  background-color: #BCBAB7 !important; }
+section.add-13 h1 {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  color: #000; }
+
+section.add-13 h2 {
+  display: block;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  color: #e40000;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 800; }
+
+section.add-13 h3 {
+  display: block;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  color: #052A56;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+section.add-13 h4 {
+  display: block;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: italic; }
+
+section.add-13 .feature-item {
+  max-width: 325px;
+  margin: 0 auto; }
+
+section.add-13 .device-container {
+  margin-bottom: 0px; }
+
+@media (min-width: 768px) {
   section.add-13 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
-  section.add-13 h2 {
+    display: block;
+    text-align: right;
     font-family: 'Exo', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 800;
     color: #000;
+    font-style: italic; }
+  section.add-13 h2 {
+    display: block;
+    text-align: right;
+    font-family: 'Exo', sans-serif;
     font-size: 3rem;
+    line-height: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-13 span {
-    color: #000;
+  section.add-13 h3 {
+    display: block;
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    color: #052A56;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.add-13 .device-container,
-  section.add-13 .feature-item {
-    max-width: 325px;
-    margin: 0 auto; }
-  section.add-13 .device-container {
-    margin-bottom: 0px; }
-  @media (min-width: 768px) {
-    section.add-13 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
-    section.add-13 h2 {
-      color: #000;
-      font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
-      font-weight: 800;
-      text-transform: uppercase; }
-    section.add-13 span {
-      color: #000;
-      font-weight: 800;
-      position: absolute;
-      font-size: 54rem;
-      line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
-  section.add-13 .feature-item {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center; }
-    section.add-13 .feature-item h3 {
-      font-size: 20px; }
-    section.add-13 .feature-item i {
-      font-size: 60px;
-      display: block;
-      margin-bottom: 15px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-      background: -webkit-linear-gradient(right, #7b4397, #dc2430);
-      background: -o-linear-gradient(right, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
+    text-transform: uppercase;
+    font-style: italic; }
+  section.add-13 h4 {
+    display: block;
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    color: #052A56;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 300; } }
+
+section.add-13 .feature-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center; }
+  section.add-13 .feature-item h3 {
+    font-size: 20px; }
+  section.add-13 .feature-item i {
+    font-size: 60px;
+    display: block;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+    background: -webkit-linear-gradient(right, #7b4397, #dc2430);
+    background: -o-linear-gradient(right, #7b4397, #dc2430);
+    background: linear-gradient(to left, #7b4397, #dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 section.add-14 {
-  background-color: #BCBAB7 !important; }
-  section.add-14 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
+  background-color: #B40803 !important; }
   section.add-14 h2 {
     font-family: 'Exo', sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
@@ -951,40 +1001,30 @@ section.add-14 {
     -ms-transform: rotate(-27deg);
     -webkit-transform: rotate(-27deg);
     transform: rotate(-19deg); }
-  section.add-14 .device-container,
   section.add-14 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
   section.add-14 .device-container {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
-    section.add-14 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
     section.add-14 h2 {
-      color: #000;
+      color: #fff;
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 7rem;
+      line-height: 7rem;
       font-weight: 800;
       text-transform: uppercase; }
     section.add-14 span {
       color: #000;
       font-weight: 800;
       position: absolute;
-      font-size: 54rem;
+      font-size: 40rem;
       line-height: 1px;
-      bottom: 198px;
-      left: 343px;
+      bottom: 262px;
+      left: 399px;
       -ms-transform: rotate(-27deg);
-      /* IE 9 */
       -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
+      transform: rotate(-21deg); } }
   section.add-14 .feature-item {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1003,20 +1043,15 @@ section.add-14 {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
-section.add-16 {
-  background-color: #BCBAB7 !important; }
-  section.add-16 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
-  section.add-16 h2 {
+section.add-15 {
+  background-color: #fff !important; }
+  section.add-15 h2 {
     font-family: 'Exo', sans-serif;
-    color: #000;
+    color: #B40803;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-16 span {
+  section.add-15 span {
     color: #000;
     font-weight: 800;
     position: absolute;
@@ -1027,28 +1062,20 @@ section.add-16 {
     -ms-transform: rotate(-27deg);
     -webkit-transform: rotate(-27deg);
     transform: rotate(-19deg); }
-  section.add-16 .device-container,
-  section.add-16 .feature-item {
+  section.add-15 .device-container,
+  section.add-15 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
-  section.add-16 .device-container {
+  section.add-15 .device-container {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
-    section.add-16 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
-    section.add-16 h2 {
-      color: #000;
+    section.add-15 h2 {
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 6rem;
+      line-height: 5.5rem;
       font-weight: 800;
       text-transform: uppercase; }
-    section.add-16 span {
+    section.add-15 span {
       color: #000;
       font-weight: 800;
       position: absolute;
@@ -1061,13 +1088,13 @@ section.add-16 {
       -webkit-transform: rotate(-27deg);
       /* Safari 3-8 */
       transform: rotate(-27deg); } }
-  section.add-16 .feature-item {
+  section.add-15 .feature-item {
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center; }
-    section.add-16 .feature-item h3 {
+    section.add-15 .feature-item h3 {
       font-size: 20px; }
-    section.add-16 .feature-item i {
+    section.add-15 .feature-item i {
       font-size: 60px;
       display: block;
       margin-bottom: 15px;
@@ -1080,7 +1107,7 @@ section.add-16 {
       -webkit-text-fill-color: transparent; }
 
 section.add-16 {
-  background-color: #BCBAB7 !important; }
+  background-color: #ff7f00 !important; }
   section.add-16 h1 {
     font-family: 'Calligraffitti', cursive;
     font-size: 3.5rem;
@@ -1110,33 +1137,28 @@ section.add-16 {
   section.add-16 .device-container {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
-    section.add-16 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
     section.add-16 h2 {
-      color: #000;
+      margin-top: 100px;
+      color: #fff;
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 2rem;
       font-weight: 800;
       text-transform: uppercase; }
+      section.add-16 h2 i {
+        font-size: 9rem;
+        margin-top: -131%;
+        line-height: 9rem; }
     section.add-16 span {
       color: #000;
       font-weight: 800;
       position: absolute;
-      font-size: 54rem;
+      font-size: 30rem;
       line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
+      bottom: 561px;
+      left: 491px;
+      -ms-transform: rotate(-30deg);
+      -webkit-transform: rotate(-30deg);
+      transform: rotate(-30deg); } }
   section.add-16 .feature-item {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -1156,16 +1178,18 @@ section.add-16 {
       -webkit-text-fill-color: transparent; }
 
 section.add-17 {
-  background-color: #BCBAB7 !important; }
-  section.add-17 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
+  background-color: #fff !important; }
   section.add-17 h2 {
     font-family: 'Exo', sans-serif;
     color: #000;
     font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase; }
+  section.add-17 h3 {
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    font-size: 4rem;
+    line-height: 6rem;
     font-weight: 800;
     text-transform: uppercase; }
   section.add-17 span {
@@ -1186,18 +1210,18 @@ section.add-17 {
   section.add-17 .device-container {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
-    section.add-17 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
     section.add-17 h2 {
       color: #000;
       font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      line-height: 4.5rem;
+      font-size: 6rem;
+      line-height: 5rem;
+      font-weight: 800;
+      text-transform: uppercase; }
+    section.add-17 h3 {
+      font-family: 'Exo', sans-serif;
+      color: red;
+      font-size: 6rem;
+      line-height: 5rem;
       font-weight: 800;
       text-transform: uppercase; }
     section.add-17 span {

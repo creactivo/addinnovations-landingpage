@@ -1,16 +1,19 @@
 // Styling for the features
 section.add-17 {
-    background-color:#BCBAB7 !important;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
-        font-size: 3.5rem;
-        font-weight: 800;
-        color:#fff;
-    }
+    background-color:#fff !important;
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 4rem;
+        line-height: 6rem;
+
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -41,20 +44,21 @@ section.add-17 {
 
     }
     @media(min-width: 768px) {
-    h1 {
-        position: relative;
-        right: 250px;
-        top: 30px;
-        font-family: 'Calligraffitti', cursive;
-        font-size: 10rem;
-        font-weight: 800;
-        
-    }
+
     h2 {
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 5rem;
-        line-height: 4.5rem;
+        font-size: 6rem;
+        line-height: 5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+     h3 {
+        font-family: 'Exo', sans-serif;
+        color: red;
+        font-size: 6rem;
+        line-height: 5rem;
+
         font-weight: 800;
         text-transform: uppercase;
     }

@@ -1,19 +1,19 @@
 
-// (function(){
-// 	var contador = 0;
-// 	var saludo = function(){
-// 	contador++;
-// 	console.log(contador);
+(function(){
+var contador = 0;
+var saludo = function(){
+contador++;
+	console.log(contador);
 	
 
-// 	if (contador === 5){
-// 		clearInterval(intervalo);
-// 	}
+if (contador === 5){
+clearInterval(intervalo);
+	}
 
-// };
+};
 
-// var intervalo = setInterval(saludo, 1000);
-// }())
+var intervalo = setInterval(saludo, 1000);
+}())
 
 
 
@@ -58,8 +58,7 @@ function cronometro () {
 		horas ++;
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
-	}
+	} 
 }
 
-// document.write(contenedor);
-//function trazadorTemporal = 
+
