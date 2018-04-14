@@ -16,7 +16,9 @@
 // }())
 
 
-
+$(function(){
+	contenedor ()
+})
 
 var centesimas = 0;
 var segundos = 0;
@@ -28,7 +30,7 @@ function contenedor () {
 	document.getElementById("contenedor").disabled= false;
 
 }
-contenedor ()
+
 function cronometro () {
 	if (centesimas < 99) {
 		centesimas++;
@@ -59,6 +61,36 @@ function cronometro () {
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
 	}
+	return getCrono(horas, minutos, segundos)
+}
+
+var getCrono = function(horas, minutos, segundos){
+	return horas +":"+ minutos +":"+ segundos
+}
+
+
+var restarHoras = function (inicio,fin) {
+
+var fechaInicio = new Date(inicio);
+
+var fechaFin = new Date(fin);
+
+var dif= fechaFin - fechaInicio; // diferencia en milisegundos
+
+var difSeg = Math.floor(dif/1000); //diferencia en segundos
+
+var segundos = difSeg % 60; //segundos
+
+var difMin = Math.floor(difSeg/60); //diferencia en minutos
+
+var minutos = difMin % 60; //minutos
+
+var difHs = Math.floor(difMin/60); //diferencia en horas
+
+var horas = difHs % 24; //horas
+
+return horas+":"+minutos+":"+segundos; //armo el tiempo de diferencia
+
 }
 
 // document.write(contenedor);
