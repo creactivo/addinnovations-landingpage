@@ -292,13 +292,13 @@ section.add-5 {
     color: #000;
     font-weight: 800;
     position: absolute;
-    font-size: 20rem;
+    font-size: 9rem;
     line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-19deg);
-    -webkit-transform: rotate(-19deg);
-    transform: rotate(-19deg); }
+    bottom: 46px;
+    left: 321px;
+    -ms-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg); }
   section.add-5 .device-container,
   section.add-5 .feature-item {
     max-width: 325px;
@@ -511,16 +511,15 @@ section.add-7 {
 
 section.add-8 {
   background-color: #9EE4E8 !important; }
-  section.add-8 h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
   section.add-8 h2 {
     font-family: 'Exo', sans-serif;
-    color: #9EE4E8;
-    font-size: 3rem;
+    color: #233f70;
+    font-size: 1.5rem;
+    font-weight: 800; }
+  section.add-8 h3 {
+    font-size: 1.5rem;
     font-weight: 800;
+    color: #233f70;
     text-transform: uppercase; }
   section.add-8 span {
     color: white; }
@@ -531,22 +530,15 @@ section.add-8 {
   section.add-8 .device-container {
     margin-bottom: 0px; }
   @media (min-width: 768px) {
-    section.add-8 h1 {
-      position: relative;
-      right: 250px;
-      top: 30px;
-      font-family: 'Calligraffitti', cursive;
-      font-size: 10rem;
-      font-weight: 800; }
     section.add-8 h2 {
-      color: #000;
       font-family: 'Exo', sans-serif;
-      font-size: 2rem;
-      line-height: 3rem;
+      font-size: 2.3rem;
+      line-height: 2.4rem;
       font-weight: 800; }
     section.add-8 h3 {
-      font-size: 2rem;
+      font-size: 2.3rem;
       font-weight: 800;
+      line-height: 2.4rem;
       text-transform: uppercase; } }
   section.add-8 .feature-item {
     padding-top: 0px;
@@ -567,30 +559,30 @@ section.add-8 {
       -webkit-text-fill-color: transparent; }
 
 section.add-9 {
-  background-color: #BCBAB7 !important; }
+  background-attachment: cover;
+  background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+  background: -webkit-radial-gradient(center, ellipse, #233f70 3%, #120f0f 100%);
+  background: -o-radial-gradient(center, ellipse, #233f70 3%, #120f0f 100%);
+  background: radial-gradient(ellipse at center, #233f70 3%, #120f0f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+  background-size: inherit;
+  width: 100%; }
   section.add-9 h1 {
     font-family: 'Calligraffitti', cursive;
     font-size: 3.5rem;
-    font-weight: 800;
-    color: #fff; }
+    font-weight: 800; }
   section.add-9 h2 {
+    color: white;
     font-family: 'Exo', sans-serif;
-    color: #000;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-9 span {
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.add-9 .device-container,
+    section.add-9 h2 span {
+      color: aqua;
+      font-weight: 800;
+      font-size: 2rem;
+      line-height: 1px; }
   section.add-9 .feature-item {
     max-width: 325px;
     margin: 0 auto; }
@@ -605,31 +597,20 @@ section.add-9 {
       font-size: 10rem;
       font-weight: 800; }
     section.add-9 h2 {
-      color: #000;
       font-family: 'Exo', sans-serif;
       font-size: 5rem;
       line-height: 4.5rem;
       font-weight: 800;
       text-transform: uppercase; }
-    section.add-9 span {
-      color: #000;
-      font-weight: 800;
-      position: absolute;
-      font-size: 54rem;
-      line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
+      section.add-9 h2 span {
+        color: aqua;
+        font-weight: 800;
+        font-size: 2rem;
+        line-height: 1rem; } }
   section.add-9 .feature-item {
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center; }
-    section.add-9 .feature-item h3 {
-      font-size: 20px; }
     section.add-9 .feature-item i {
       font-size: 60px;
       display: block;
