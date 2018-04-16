@@ -192,7 +192,7 @@
               </div>
               <div class="col-lg-5 my-auto">
                 <div class="header-content text-right">
-                  <h3 class="mb-2" id="add5H3"></h3>
+                  <h3 class="mb-2" id="add5H3">... Sigues</h3>
                   <h1 class="mb-2" id="add5H1">... Sigues</h1>  
                   <h2 class="mb-2" id="add5H2">Aqui</h2>      
                 </div>
@@ -551,6 +551,18 @@ Y POSICIONAR </h3>
 
   <script type="text/javascript">
     $(document).ready(function() {
+      $("#add4BtnForm").on('click', () => {
+        let nombre = $("#textNombre").val()
+        let email = $("#textEmail").val()
+
+        localStorage.setItem('Nombre', JSON.stringify(nombre))
+        window.location = '#add-5'
+
+      })
+
+
+
+
       let varCrono = cronometro();
       console.log("init crono: "+varCrono)
       let varTI = varCrono;
@@ -604,12 +616,55 @@ Y POSICIONAR </h3>
           }
 
           if(nextIndex == 4 && direction =="up"){
-             let varTF = cronometro();
+            if(localStorage.getItem("Nombre") == null){
+              $("#add4H1").html('')
+              $("#add4H1").html('Ok...')
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Has decidido confiar en nosotros')
+
+              $("#add4span").html('')
+              $("#add4span").html('?')
+              $("#add4Form").show();
+            }else{
+              $("#add4H1").html('')
+              $("#add4H1").html(localStorage.getItem("Nombre"))
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Sigue con nosotros')
+
+              $("#add4Form").hide();
+            }
+
+            let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
           }else if(nextIndex == 4 && direction =="down"){
-             let varTF = cronometro();
+            
+
+            if(localStorage.getItem("Nombre") == null){
+              $("#add4H1").html('')
+              $("#add4H1").html('...Y si...')
+
+              $("#add4H2").html('')
+              $("#add4H2").html('primero te contactamos')
+
+              $("#add4span").html('')
+              $("#add4span").html('?')
+              $("#add4Form").show();
+            }else{
+              $("#add4H1").html('')
+              $("#add4H1").html(localStorage.getItem("Nombre"))
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Sigue con nosotros')
+
+              $("#add4Form").hide();
+            }
+
+
+            let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" bajando")
@@ -621,6 +676,32 @@ Y POSICIONAR </h3>
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
           }else if(nextIndex == 5 && direction =="down"){
+
+            if(localStorage.getItem("Nombre") == null){
+              $("#add5H3").html('')
+              $("#add5H3").html('No nos diste tu nombre')
+
+              $("#add5H2").html('')
+              $("#add5H2").html('Sigues aqui')
+
+              $("#add5H1").html('')
+              $("#add5H1").html('... Pero ...')
+
+              $("#add5span").html('')
+              $("#add5span").html('!')
+            }else{
+              $("#add5H1").html('')
+              $("#add5H1").html('... Sigues')
+
+              $("#add5H2").html('')
+              $("#add5H2").html('aqui')
+
+              $("#add5H3").html('')
+              $("#add5H3").html(localStorage.getItem("Nombre"))
+
+              $("#add5Form").hide();
+            }
+
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
@@ -755,13 +836,13 @@ Y POSICIONAR </h3>
           }else if(nextIndex == 16 && direction =="down"){
             let varTF = cronometro();
             let timepoFinal = null;
-            $("#17tf").html('');
-            /*if(timepoFinal != null){
+            if(timepoFinal != null){
               return timepoFinal
             }else{
               timepoFinal = varTF
-            }*/
-            $("#17tf").html(timepoFinal);
+            }
+            $(".17tf").html('');
+            $(".17tf").html(timepoFinal);
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" bajando")
