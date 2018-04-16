@@ -21,7 +21,7 @@ const countdown = (deadline, elem, finalMassage) => {
 
 	const timerUpdate = setInterval(() => {
 		let t = getRemainTime(deadline);
-		el.innerHTML = `${t.remainDays}d:${t.remainHours}h:${t.remainMinutes}m:${t.remainSeconds}s`;
+		el.innerHTML = `${t.remainDays} dias ${t.remainHours} horas ${t.remainMinutes} minutos ${t.remainSeconds} segundos`;
 	
 
 	if (t.remainTime <= 1){
@@ -31,5 +31,5 @@ const countdown = (deadline, elem, finalMassage) => {
 	}, 1000)
 
 };
-countdown('May 02 2019 16:10:02 GMT-0500','clock', 'feliz dia');
+countdown('May 02 2018 16:10:02 GMT-0500','clock', 'feliz dia');
 
