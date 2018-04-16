@@ -16,8 +16,6 @@ var intervalo = setInterval(saludo, 1000);
 }())
 
 
-
-
 var centesimas = 0;
 var segundos = 0;
 var minutos = 0;
@@ -28,7 +26,7 @@ function contenedor () {
 	document.getElementById("contenedor").disabled= false;
 
 }
-contenedor ()
+
 function cronometro () {
 	if (centesimas < 99) {
 		centesimas++;
@@ -58,7 +56,29 @@ function cronometro () {
 		horas ++;
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
-	} 
+
+	}
+	return getCrono(horas, minutos, segundos)
+}
+
+var getCrono = function(horas, minutos, segundos){
+	return horas +":"+ minutos +":"+ segundos
+}
+
+
+var restarHoras = function (inicio,fin) {
+	let horaInicio = inicio.split(":")
+	let horaFin = fin.split(":")
+
+	let t1 = new Date();
+	let t2 = new Date();
+
+	t1.setHours(horaInicio[0], horaInicio[1], horaInicio[2]);
+	t2.setHours(horaFin[0], horaFin[1], horaFin[2]);
+
+	t1.setHours(t1.getHours() - t2.getHours(), t1.getMinutes() - t2.getMinutes(), t1.getSeconds() - t2.getSeconds());
+
+	return t1.getHours() + ":"+ t1.getMinutes() + ":" + t1.getSeconds();
 }
 
 

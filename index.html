@@ -665,19 +665,152 @@ Y POSICIONAR </h3>
 
   <script type="text/javascript">
     $(document).ready(function() {
+      let varCrono = cronometro();
+      console.log("init crono: "+varCrono)
+      let varTI = varCrono;
+      console.log("init varTI: "+varTI)
       $('#fullpage').fullpage({
         sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
         anchors: ['firstPage', 'secondPage', '3rdPage', 'add-4','add-5', 'add-6', 'add-7', 'add-8', 'add-9', 'add-10', 'add-11', 'add-12', 'add-13', 'add-14', 'add-15', 'add-16', 'add-17', 'add-18', 'add-19', 'add-20', '4thpage', 'lastPage'],
         menu: '#menu',
+        onLeave: function(index, nextIndex, direction){
+          /*console.log(index)
+          console.log(nextIndex)
+          console.log(direction)*/
+          
+          //index  = diapositiva_actual
+          //nextIndex = siguiente diapositiva
+          //direction = up - down dependiendo si sube o baja diapo
+          if(nextIndex == 1 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 1 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 2 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 2 && direction =="down"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 3 && direction =="up"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 3 && direction =="down"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 4 && direction =="up"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 4 && direction =="down"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 5 && direction =="up"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 5 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 6 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 6 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 7 && direction =="up"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 7 && direction =="down"){
+             let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 8 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 8 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 9 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 9 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          if(nextIndex == 10 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }else if(nextIndex == 10 && direction =="down"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
+          }
+
+          
+        },
 
         //equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
         easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
       });
 
     });
+    
   </script>
-
-
 
 
     <!-- Plugin JavaScript-->
@@ -685,11 +818,12 @@ Y POSICIONAR </h3>
     <script src="js/mostrar-datos.js"></script>
     <script src="js/carga-tabla.js"></script> 
     <script src="js/reloj-lav.js"></script> 
+    <script type="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
 
 
     <!-- Custom scripts for this template 
     <script src="js/new-age.min.js"></script>
- <script type="text/javascript">
+    <script type="text/javascript">
            function get_ip(obj){
             var obj_ip =  localStorage.setItem('textIp', JSON.stringify(obj.ip));          
         }-->
