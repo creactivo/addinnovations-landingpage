@@ -556,6 +556,18 @@ Y POSICIONAR </h3>
 
   <script type="text/javascript">
     $(document).ready(function() {
+      $("#").on('click', () => {
+        let nombre = $("#").val()
+        let email = $("#").val()
+
+        localStorage.setItem('permisos', JSON.stringify(nombre))
+        window.location = '#add-5'
+
+      })
+
+
+
+
       let varCrono = cronometro();
       console.log("init crono: "+varCrono)
       let varTI = varCrono;
@@ -609,7 +621,8 @@ Y POSICIONAR </h3>
           }
 
           if(nextIndex == 4 && direction =="up"){
-             let varTF = cronometro();
+
+            let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
@@ -618,14 +631,14 @@ Y POSICIONAR </h3>
 
             if(localStorage.getNombre == null){
               $("#add4H1").html('')
-              $("#add4H1").html('...Y Si...')
+              $("#add4H1").html('...Y si...')
 
               $("#add4H2").html('')
               $("#add4H2").html('primero te contactamos')
 
               $("#add4span").html('')
               $("#add4span").html('?')
-              $("#addForm").show();
+              $("#add4Form").show();
             }else{
               $("#add4H1").html('')
               $("#add4H1").html(localStorage.getNombre)
@@ -633,7 +646,7 @@ Y POSICIONAR </h3>
               $("#add4H2").html('')
               $("#add4H2").html('Sigue con nosotros')
 
-              $("#addForm").hide();
+              $("#add4Form").hide();
             }
 
 
