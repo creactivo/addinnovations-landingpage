@@ -1,3 +1,4 @@
+
 $(function(){
 	contenedor ()
 })
@@ -42,6 +43,7 @@ function cronometro () {
 		horas ++;
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
+
 	}
 	return getCrono(horas, minutos, segundos)
 }
@@ -65,6 +67,5 @@ var restarHoras = function (inicio,fin) {
 
 	return t1.getHours() + ":"+ t1.getMinutes() + ":" + t1.getSeconds();
 }
-
 
 
