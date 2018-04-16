@@ -1,5 +1,5 @@
 /*// Styling for the download section*/
-section.download {
+section.add-2 {
     color:#fff;
     background-attachment: cover;
     background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
@@ -9,40 +9,27 @@ section.download {
     background-size: inherit;   
     position: relative;
     padding:0;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
-        font-size: 3.5rem;
-        font-weight: 800;
-    }
+    
     h2 {
         color:yellow;
         font-family: 'Exo', sans-serif;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-weight: 800;
         text-transform: uppercase;
+        line-height: 2.5rem;
+    }
+    h3 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 3.5rem;
+        font-weight: 800;
+        line-height: 3rem;
     }
 
-    .badges {
-        .badge-link {
-            display: block;
-            margin-bottom: 25px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-            img {
-                height: 60px;
-            }
-            @media(min-width: 768px) {
-                display: inline-block;
-                margin-bottom: 0;
-            }
-        }
-    }
     @media(min-width: 768px) {
-        h1 {
+        h3 {
         font-family: 'Calligraffitti', cursive;
-        font-size: 10rem;
-        // font-weight: 800;
+        font-size: 8rem;
+        line-height: 8rem;
     }
     h2 {
         color:yellow;
@@ -51,9 +38,6 @@ section.download {
         font-weight: 800;
         line-height: 4rem;
         text-transform: uppercase;
-    }
-    h2 span {
-        line-height: 6rem;
     }
     }
 }

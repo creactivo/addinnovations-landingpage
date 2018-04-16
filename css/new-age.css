@@ -109,7 +109,7 @@ section {
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
             color: #fdcc52; } }
 
-header.masthead {
+header.add-1 {
   position: relative;
   background-attachment: cover;
   background: url(../img/header-diapo-1.png) no-repeat top, -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
@@ -121,36 +121,36 @@ header.masthead {
   background-size: inherit;
   width: 100%;
   color: yellow; }
-  header.masthead .header-content {
+  header.add-1 .header-content {
     /*  max-width: 500px;*/
     margin-bottom: 100px;
     text-align: center; }
-    header.masthead .header-content h1 {
+    header.add-1 .header-content h1 {
       font-family: 'Exo', sans-serif;
       font-size: 3.5rem;
       font-weight: 800;
       text-transform: uppercase; }
-  header.masthead .device-container {
+  header.add-1 .device-container {
     max-width: 325px;
     margin-right: auto;
     margin-left: auto; }
-    header.masthead .device-container .screen img {
+    header.add-1 .device-container .screen img {
       border-radius: 3px; }
   @media (min-width: 992px) {
-    header.masthead {
+    header.add-1 {
       padding-top: 0;
       padding-bottom: 0;
       background-size: contain; }
-      header.masthead .header-content {
+      header.add-1 .header-content {
         margin-bottom: 0;
         text-align: left; }
-        header.masthead .header-content h1 {
+        header.add-1 .header-content h1 {
           font-size: 5rem; }
-      header.masthead .device-container {
+      header.add-1 .device-container {
         max-width: 325px; } }
 
 /*// Styling for the download section*/
-section.download {
+section.add-2 {
   color: #fff;
   background-attachment: cover;
   background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
@@ -162,40 +162,93 @@ section.download {
   background-size: inherit;
   position: relative;
   padding: 0; }
-  section.download h1 {
-    font-family: 'Calligraffitti', cursive;
-    font-size: 3.5rem;
-    font-weight: 800; }
-  section.download h2 {
+  section.add-2 h2 {
     color: yellow;
     font-family: 'Exo', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.5rem; }
+  section.add-2 h3 {
+    font-family: 'Calligraffitti', cursive;
     font-size: 3.5rem;
     font-weight: 800;
-    text-transform: uppercase; }
-  section.download .badges .badge-link {
-    display: block;
-    margin-bottom: 25px; }
-    section.download .badges .badge-link:last-child {
-      margin-bottom: 0; }
-    section.download .badges .badge-link img {
-      height: 60px; }
-    @media (min-width: 768px) {
-      section.download .badges .badge-link {
-        display: inline-block;
-        margin-bottom: 0; } }
+    line-height: 3rem; }
   @media (min-width: 768px) {
-    section.download h1 {
+    section.add-2 h3 {
       font-family: 'Calligraffitti', cursive;
-      font-size: 10rem; }
-    section.download h2 {
+      font-size: 8rem;
+      line-height: 8rem; }
+    section.add-2 h2 {
       color: yellow;
       font-family: 'Exo', sans-serif;
       font-size: 4.5rem;
       font-weight: 800;
       line-height: 4rem;
+      text-transform: uppercase; } }
+
+section.add-3 {
+  background-color: yellow !important; }
+  section.add-3 h2 {
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase; }
+  section.add-3 span {
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+    font-size: 20rem;
+    line-height: 1px;
+    bottom: 127px;
+    left: 256px;
+    -ms-transform: rotate(-27deg);
+    -webkit-transform: rotate(-27deg);
+    transform: rotate(-19deg); }
+  section.add-3 .device-container,
+  section.add-3 .feature-item {
+    max-width: 325px;
+    margin: 0 auto; }
+  section.add-3 .device-container {
+    margin-bottom: 0px; }
+  @media (min-width: 768px) {
+    section.add-3 h2 {
+      color: #000;
+      font-family: 'Exo', sans-serif;
+      font-size: 5rem;
+      font-weight: 800;
       text-transform: uppercase; }
-    section.download h2 span {
-      line-height: 6rem; } }
+    section.add-3 span {
+      color: #000;
+      font-weight: 800;
+      position: absolute;
+      font-size: 54rem;
+      line-height: 1px;
+      bottom: 198px;
+      left: 343px;
+      -ms-transform: rotate(-27deg);
+      /* IE 9 */
+      -webkit-transform: rotate(-27deg);
+      /* Safari 3-8 */
+      transform: rotate(-27deg); } }
+  section.add-3 .feature-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center; }
+    section.add-3 .feature-item h3 {
+      font-size: 20px; }
+    section.add-3 .feature-item i {
+      font-size: 60px;
+      display: block;
+      margin-bottom: 15px;
+      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+      background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+      background: -webkit-linear-gradient(right, #7b4397, #dc2430);
+      background: -o-linear-gradient(right, #7b4397, #dc2430);
+      background: linear-gradient(to left, #7b4397, #dc2430);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
 
 section.add-4 {
   background-color: #BCBAB7 !important; }
@@ -1492,69 +1545,6 @@ section.add-21 {
     section.add-21 .feature-item h3 {
       font-size: 20px; }
     section.add-21 .feature-item i {
-      font-size: 60px;
-      display: block;
-      margin-bottom: 15px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-      background: -webkit-linear-gradient(right, #7b4397, #dc2430);
-      background: -o-linear-gradient(right, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
-
-section.features {
-  background-color: yellow !important; }
-  section.features h2 {
-    font-family: 'Exo', sans-serif;
-    color: #000;
-    font-size: 3rem;
-    font-weight: 800;
-    text-transform: uppercase; }
-  section.features span {
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg); }
-  section.features .device-container,
-  section.features .feature-item {
-    max-width: 325px;
-    margin: 0 auto; }
-  section.features .device-container {
-    margin-bottom: 0px; }
-  @media (min-width: 768px) {
-    section.features h2 {
-      color: #000;
-      font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      font-weight: 800;
-      text-transform: uppercase; }
-    section.features span {
-      color: #000;
-      font-weight: 800;
-      position: absolute;
-      font-size: 54rem;
-      line-height: 1px;
-      bottom: 198px;
-      left: 343px;
-      -ms-transform: rotate(-27deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-27deg);
-      /* Safari 3-8 */
-      transform: rotate(-27deg); } }
-  section.features .feature-item {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center; }
-    section.features .feature-item h3 {
-      font-size: 20px; }
-    section.features .feature-item i {
       font-size: 60px;
       display: block;
       margin-bottom: 15px;
