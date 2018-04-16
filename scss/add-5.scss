@@ -14,6 +14,13 @@ section.add-5 {
         font-weight: 800;
         text-transform: uppercase;
     }
+    h3 {
+        font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
     span{
     color: #000;
     font-weight: 800;
@@ -21,7 +28,7 @@ section.add-5 {
     font-size: 9rem;
     line-height: 1px;
     bottom: 46px;
-    left: 321px;
+    left: 900%;
     -ms-transform: rotate(11deg);
     -webkit-transform: rotate(11deg);
     transform: rotate(11deg);
@@ -53,8 +60,16 @@ section.add-5 {
     h2 {
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 10rem;
-        line-height: 4.5rem;
+        font-size: 9rem;
+        line-height: 8rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+     h3 {
+        color:#000;
+        font-family: 'Exo', sans-serif;
+        font-size: 4rem;
+        line-height: 3.5rem;
         font-weight: 800;
         text-transform: uppercase;
     }
