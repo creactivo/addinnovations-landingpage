@@ -70,28 +70,19 @@ var getCrono = function(horas, minutos, segundos){
 
 
 var restarHoras = function (inicio,fin) {
+	let horaInicio = inicio.split(":")
+	let horaFin = fin.split(":")
 
-var fechaInicio = new Date(inicio);
+	let t1 = new Date();
+	let t2 = new Date();
 
-var fechaFin = new Date(fin);
+	t1.setHours(horaInicio[0], horaInicio[1], horaInicio[2]);
+	t2.setHours(horaFin[0], horaFin[1], horaFin[2]);
 
-var dif= fechaFin - fechaInicio; // diferencia en milisegundos
+	t1.setHours(t1.getHours() - t2.getHours(), t1.getMinutes() - t2.getMinutes(), t1.getSeconds() - t2.getSeconds());
 
-var difSeg = Math.floor(dif/1000); //diferencia en segundos
-
-var segundos = difSeg % 60; //segundos
-
-var difMin = Math.floor(difSeg/60); //diferencia en minutos
-
-var minutos = difMin % 60; //minutos
-
-var difHs = Math.floor(difMin/60); //diferencia en horas
-
-var horas = difHs % 24; //horas
-
-return horas+":"+minutos+":"+segundos; //armo el tiempo de diferencia
-
+	return t1.getHours() + ":"+ t1.getMinutes() + ":" + t1.getSeconds();
 }
 
-// document.write(contenedor);
-//function trazadorTemporal = 
+
+
