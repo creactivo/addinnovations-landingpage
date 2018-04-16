@@ -508,19 +508,14 @@ section.add-7 {
       width: 80px;
       height: 80px;
       color: white;
-      border-radius: 100%; }
-    section.add-7 .list-social li.social-twitter a {
-      background-color: #1da1f2; }
-      section.add-7 .list-social li.social-twitter a:hover {
-        background-color: #0d95e8; }
-    section.add-7 .list-social li.social-facebook a {
-      background-color: #3b5998; }
-      section.add-7 .list-social li.social-facebook a:hover {
-        background-color: #344e86; }
-    section.add-7 .list-social li.social-google-plus a {
-      background-color: #007ab9; }
-      section.add-7 .list-social li.social-google-plus a:hover {
-        background-color: #0069a0; }
+      border-radius: 100%;
+      border: 2px solid #fff; }
+    section.add-7 .list-social li.social-twitter a:hover {
+      background-color: #0d95e8; }
+    section.add-7 .list-social li.social-facebook a:hover {
+      background-color: #344e86; }
+    section.add-7 .list-social li.social-google-plus a:hover {
+      background-color: #0069a0; }
   section.add-7 span {
     color: #000;
     font-weight: 800;
@@ -1415,6 +1410,11 @@ section.add-20 {
   section.add-20 h2 {
     font-family: 'Exo', sans-serif;
     color: #000;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase; }
+  section.add-20 .clock {
+    font-family: 'Exo', sans-serif;
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }

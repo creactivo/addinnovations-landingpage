@@ -27,10 +27,11 @@ section.add-7 {
                 height: 80px;
                 color: white;
                 border-radius: 100%;
+                border:2px solid #fff;
             }
             &.social-twitter {
                 a {
-                    background-color: $brand-twitter;
+                   
                     &:hover {
                         background-color: darken($brand-twitter, 5%);
                     }
@@ -38,7 +39,7 @@ section.add-7 {
             }
             &.social-facebook {
                 a {
-                    background-color: $brand-facebook;
+                    
                     &:hover {
                         background-color: darken($brand-facebook, 5%);
                     }
@@ -46,7 +47,7 @@ section.add-7 {
             }
             &.social-google-plus {
                 a {
-                    background-color: $brand-linkedin;
+                    
                     &:hover {
                         background-color: darken($brand-linkedin, 5%);
                     }
