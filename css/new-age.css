@@ -341,6 +341,12 @@ section.add-5 {
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
+  section.add-5 h3 {
+    font-family: 'Exo', sans-serif;
+    color: #000;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase; }
   section.add-5 span {
     color: #000;
     font-weight: 800;
@@ -370,7 +376,14 @@ section.add-5 {
       color: #000;
       font-family: 'Exo', sans-serif;
       font-size: 10rem;
-      line-height: 4.5rem;
+      line-height: 3.5rem;
+      font-weight: 800;
+      text-transform: uppercase; }
+    section.add-5 h3 {
+      color: #000;
+      font-family: 'Exo', sans-serif;
+      font-size: 10rem;
+      line-height: 3.5rem;
       font-weight: 800;
       text-transform: uppercase; }
     section.add-5 span {
