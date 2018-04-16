@@ -836,12 +836,12 @@ Y POSICIONAR </h3>
           }else if(nextIndex == 16 && direction =="down"){
             let varTF = cronometro();
             let timepoFinal = null;
-            $(".17tf").html('');
             if(timepoFinal != null){
               return timepoFinal
             }else{
               timepoFinal = varTF
             }
+            $(".17tf").html('');
             $(".17tf").html(timepoFinal);
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
