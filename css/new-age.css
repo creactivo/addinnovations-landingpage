@@ -448,6 +448,7 @@ section.add-7 {
     text-aling: center;
     margin-bottom: 0; }
     section.add-7 .list-social li a {
+      text-align: center;
       font-size: 40px;
       line-height: 80px;
       display: block;
