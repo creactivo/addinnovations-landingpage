@@ -556,11 +556,11 @@ Y POSICIONAR </h3>
 
   <script type="text/javascript">
     $(document).ready(function() {
-      $("#").on('click', () => {
-        let nombre = $("#").val()
-        let email = $("#").val()
+      $("#add4BtnForm").on('click', () => {
+        let nombre = $("#textNombre").val()
+        let email = $("#textEmail").val()
 
-        localStorage.setItem('permisos', JSON.stringify(nombre))
+        localStorage.setItem('Nombre', JSON.stringify(nombre))
         window.location = '#add-5'
 
       })
@@ -621,6 +621,25 @@ Y POSICIONAR </h3>
           }
 
           if(nextIndex == 4 && direction =="up"){
+            if(localStorage.getItem("Nombre") == null){
+              $("#add4H1").html('')
+              $("#add4H1").html('Ok...')
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Has decidido confiar en nosotros')
+
+              $("#add4span").html('')
+              $("#add4span").html('?')
+              $("#add4Form").show();
+            }else{
+              $("#add4H1").html('')
+              $("#add4H1").html(localStorage.getItem("Nombre"))
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Sigue con nosotros')
+
+              $("#add4Form").hide();
+            }
 
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
@@ -629,7 +648,7 @@ Y POSICIONAR </h3>
           }else if(nextIndex == 4 && direction =="down"){
             
 
-            if(localStorage.getNombre == null){
+            if(localStorage.getItem("Nombre") == null){
               $("#add4H1").html('')
               $("#add4H1").html('...Y si...')
 
@@ -641,7 +660,7 @@ Y POSICIONAR </h3>
               $("#add4Form").show();
             }else{
               $("#add4H1").html('')
-              $("#add4H1").html(localStorage.getNombre)
+              $("#add4H1").html(localStorage.getItem("Nombre"))
 
               $("#add4H2").html('')
               $("#add4H2").html('Sigue con nosotros')
@@ -662,6 +681,30 @@ Y POSICIONAR </h3>
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
           }else if(nextIndex == 5 && direction =="down"){
+
+            if(localStorage.getItem("Nombre") == null){
+              $("#add5H1").html('')
+              $("#add5H1").html('No nos diste tu nombre')
+
+              $("#add5H2").html('')
+              $("#add5H2").html('... pero ...')
+
+              $("#add5span").html('')
+              $("#add5span").html('?')
+              $("#add5Form").show();
+            }else{
+              $("#add5H2").html('')
+              $("#add5H2").html('... Sigues')
+
+              $("#add5H2").html('')
+              $("#add5H2").html('aqui')
+
+              $("#add5H1").html('')
+              $("#add5H1").html(localStorage.getItem("Nombre"))
+
+              $("#add5Form").hide();
+            }
+
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
