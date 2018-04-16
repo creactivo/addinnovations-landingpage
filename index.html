@@ -451,8 +451,6 @@ Y POSICIONAR </h3>
                 <div class="header-content text-right">
                   <h2 class="mb-2">Has Notado que llevas este tiempo con Nosotros</h2>
                   <h2><i class="fas fa-caret-down"></i></h2>
-
-
                  
                 </div>
                   <div class="17tf" id="17tf"></div>
@@ -621,7 +619,30 @@ Y POSICIONAR </h3>
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" regresastes")
           }else if(nextIndex == 4 && direction =="down"){
-             let varTF = cronometro();
+            
+
+            if(localStorage.getNombre == null){
+              $("#add4H1").html('')
+              $("#add4H1").html('...Y Si...')
+
+              $("#add4H2").html('')
+              $("#add4H2").html('primero te contactamos')
+
+              $("#add4span").html('')
+              $("#add4span").html('?')
+              $("#addForm").show();
+            }else{
+              $("#add4H1").html('')
+              $("#add4H1").html(localStorage.getNombre)
+
+              $("#add4H2").html('')
+              $("#add4H2").html('Sigue con nosotros')
+
+              $("#addForm").hide();
+            }
+
+
+            let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+(nextIndex - 1)+" bajando")
