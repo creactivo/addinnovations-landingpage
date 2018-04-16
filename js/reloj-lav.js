@@ -1,20 +1,7 @@
 
-(function(){
-var contador = 0;
-var saludo = function(){
-contador++;
-	console.log(contador);
-	
-
-if (contador === 5){
-clearInterval(intervalo);
-	}
-
-};
-
-var intervalo = setInterval(saludo, 1000);
-}())
-
+$(function(){
+	contenedor ()
+})
 
 var centesimas = 0;
 var segundos = 0;
