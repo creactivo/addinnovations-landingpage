@@ -1,16 +1,14 @@
 
-document.querySelector('#btn-enviar').addEventListener('click',salvarCampo);
+document.querySelector('#add4BtnForm').addEventListener('click',salvarCampo);
 
 impTablaCampos()
 
 function salvarCampo(){
 	var sNombre = document.querySelector('#textNombre').value,
-		sApellido = document.querySelector('#textApellido').value,
-		sDireccion = document.querySelector('#textDireccion').value,
 		sEmail = document.querySelector('#textEmail').value;
 
 
-		addCamposSistem(sNombre,sApellido,sDireccion,sEmail);
+		addCamposSistem(sNombre,sEmail);
 impTablaCampos()
 }
 

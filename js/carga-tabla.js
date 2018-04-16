@@ -1,13 +1,10 @@
 
 var camposList = [];
 
-function addCamposSistem(aip,anombre,aapellido,adireccion,aemail) {
+function addCamposSistem(anombre,aemail) {
 
 	var newCampos = {
-		ip: aip,
 		nombre: anombre,
-		apellido: aapellido,
-		direccion: adireccion,
 		email:aemail
 	};
 
