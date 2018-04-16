@@ -5,15 +5,15 @@ section.add-17 {
         font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
+        line-height:2.5rem;
         font-weight: 800;
         text-transform: uppercase;
     }
     h3 {
         font-family: 'Exo', sans-serif;
-        color: #000;
+        color: red;
         font-size: 4rem;
-        line-height: 6rem;
-
+        line-height: 3.2rem;
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -29,9 +29,10 @@ section.add-17 {
     -webkit-transform: rotate(-27deg);
     transform: rotate(-19deg);
     }
-    .section-heading {
+    .17tf{
+        color: red;
     }
-    .device-container,
+
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
@@ -55,10 +56,8 @@ section.add-17 {
     }
      h3 {
         font-family: 'Exo', sans-serif;
-        color: red;
         font-size: 6rem;
         line-height: 5rem;
-
         font-weight: 800;
         text-transform: uppercase;
     }
