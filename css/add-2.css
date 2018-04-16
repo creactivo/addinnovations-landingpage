@@ -1,0 +1,47 @@
+/*// Styling for the download section*/
+section.add-2 {
+  color: #fff;
+  background-attachment: cover;
+  background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+  background: -webkit-radial-gradient(center, ellipse, #233f70 3%, #120f0f 100%);
+  background: -o-radial-gradient(center, ellipse, #233f70 3%, #120f0f 100%);
+  background: radial-gradient(ellipse at center, #233f70 3%, #120f0f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+  background-size: inherit;
+  position: relative;
+  padding: 0; }
+  section.add-2 h1 {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 3.5rem;
+    font-weight: 800; }
+  section.add-2 h2 {
+    color: yellow;
+    font-family: 'Exo', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: uppercase; }
+  section.add-2 .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }
+    section.add-2 .badges .badge-link:last-child {
+      margin-bottom: 0; }
+    section.add-2 .badges .badge-link img {
+      height: 60px; }
+    @media (min-width: 768px) {
+      section.add-2 .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    section.add-2 h1 {
+      font-family: 'Calligraffitti', cursive;
+      font-size: 10rem; }
+    section.add-2 h2 {
+      color: yellow;
+      font-family: 'Exo', sans-serif;
+      font-size: 4.5rem;
+      font-weight: 800;
+      line-height: 4rem;
+      text-transform: uppercase; }
+    section.add-2 h2 span {
+      line-height: 6rem; } }
