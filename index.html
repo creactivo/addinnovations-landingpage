@@ -678,24 +678,26 @@ Y POSICIONAR </h3>
           }else if(nextIndex == 5 && direction =="down"){
 
             if(localStorage.getItem("Nombre") == null){
-              $("#add5H1").html('')
-              $("#add5H1").html('No nos diste tu nombre')
+              $("#add5H3").html('')
+              $("#add5H3").html('No nos diste tu nombre')
 
               $("#add5H2").html('')
-              $("#add5H2").html('... pero ...')
+              $("#add5H2").html('Sigues aqui')
+
+              $("#add5H1").html('')
+              $("#add5H1").html('... Pero ...')
 
               $("#add5span").html('')
-              $("#add5span").html('?')
-              $("#add5Form").show();
+              $("#add5span").html('!')
             }else{
-              $("#add5H2").html('')
-              $("#add5H2").html('... Sigues')
+              $("#add5H1").html('')
+              $("#add5H1").html('... Sigues')
 
               $("#add5H2").html('')
               $("#add5H2").html('aqui')
 
-              $("#add5H1").html('')
-              $("#add5H1").html(localStorage.getItem("Nombre"))
+              $("#add5H3").html('')
+              $("#add5H3").html(localStorage.getItem("Nombre"))
 
               $("#add5Form").hide();
             }
