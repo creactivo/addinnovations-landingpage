@@ -284,6 +284,7 @@ var utils = (function () {
 
     return me;
 })();
+
 function IScroll (el, options) {
     this.wrapper = typeof el == 'string' ? document.querySelector(el) : el;
     this.scroller = this.wrapper.children[0];

@@ -1,24 +1,20 @@
 
-// (function(){
-// 	var contador = 0;
-// 	var saludo = function(){
-// 	contador++;
-// 	console.log(contador);
+(function(){
+var contador = 0;
+var saludo = function(){
+contador++;
+	console.log(contador);
 	
 
-// 	if (contador === 5){
-// 		clearInterval(intervalo);
-// 	}
+if (contador === 5){
+clearInterval(intervalo);
+	}
 
-// };
+};
 
-// var intervalo = setInterval(saludo, 1000);
-// }())
+var intervalo = setInterval(saludo, 1000);
+}())
 
-
-$(function(){
-	contenedor ()
-})
 
 var centesimas = 0;
 var segundos = 0;
@@ -60,6 +56,7 @@ function cronometro () {
 		horas ++;
 		if (horas < 10) { horas = "0"+horas }
 		Horas.innerHTML = horas;
+
 	}
 	return getCrono(horas, minutos, segundos)
 }
@@ -83,6 +80,5 @@ var restarHoras = function (inicio,fin) {
 
 	return t1.getHours() + ":"+ t1.getMinutes() + ":" + t1.getSeconds();
 }
-
 
 

@@ -1,34 +1,45 @@
 // Styling for the features
 section.add-10 {
-    background-color:#BCBAB7 !important;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
+    background-color:yellow !important;
+    h1 {display:block;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Exo', sans-serif;
         font-size: 3.5rem;
+        line-height: 2rem;
         font-weight: 800;
-        color:#fff;
+        color:#000;
     }
     h2 {
+        display:block;
+        text-align: center;
         font-family: 'Exo', sans-serif;
         color: #000;
-        font-size: 3rem;
+        font-size: 1.9rem;
+        line-height: 2rem;
         font-weight: 800;
         text-transform: uppercase;
     }
-    span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg);
+     h3 {
+        display:block;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 2.5rem;
+        line-height: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
-    .section-heading {
+     h4 {
+        display:block;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 5.7rem;
+        line-height: 6rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
-    .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
@@ -42,20 +53,46 @@ section.add-10 {
     }
     @media(min-width: 768px) {
     h1 {
-        position: relative;
-        right: 250px;
-        top: 30px;
-        font-family: 'Calligraffitti', cursive;
-        font-size: 10rem;
+        color: #000;
+        display:flex;
+        margin: 0 auto;
+        font-family: 'Exo', sans-serif;
+        font-size: 8.7rem;
         font-weight: 800;
-        
+        letter-spacing: -0.7rem;
+        line-height: 6.5rem;
     }
     h2 {
+        display:flex;
+        margin: 0 auto;
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 5rem;
-        line-height: 4.5rem;
+        font-size: 3.8rem;
+        line-height: 3rem;
         font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+    }
+     h3 {
+        display:flex;
+        margin: 0 auto;
+        color:#000;
+        font-family: 'Exo', sans-serif;
+        font-size: 5.2rem;
+        line-height: 5.5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+    }
+     h4 {
+        display:flex;
+        margin: 0 auto;
+        color:#000;
+        font-family: 'Exo', sans-serif;
+        font-size: 12rem;
+        line-height: 13rem;
+        font-weight: 800;
+        letter-spacing: 0rem;
         text-transform: uppercase;
     }
     span{
