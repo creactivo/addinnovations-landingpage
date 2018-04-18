@@ -1,5 +1,5 @@
 
-document.querySelector('#btn-enviar').addEventListener('click',salvarCampo);
+//document.querySelector('#btn-enviar').addEventListener('click',salvarCampo);
 
 impTablaCampos()
 

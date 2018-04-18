@@ -11,7 +11,6 @@ var horas = 0;
 function contenedor () {
 	control = setInterval(cronometro,10);
 	//document.getElementById("contenedor").disabled= false;
-
 }
 
 function cronometro () {
@@ -68,4 +67,25 @@ var restarHoras = function (inicio,fin) {
 	return t1.getHours() + ":"+ t1.getMinutes() + ":" + t1.getSeconds();
 }
 
+var registrarDiapo = function(diapo, tiempo){
+	var datos = new FormData();
+		datos.append("token_i", localStorage.getItem("Token"));
+		datos.append("id_diapo", diapo);
+		datos.append("tiempo", tiempo);
+		datos.append("ip", localStorage.getItem("textIp"));
+		datos.append("id_usuario", localStorage.getItem("Usuario"));
+        datos.append("trasa", "registrar");
+        $.ajax({
+          url: 'http://localhost/addinnovations-landingpage/controller/generalController.php', 
+          type: 'POST',
+          data: datos,
+          cache: false,
+          processData: false,
+          contentType: false,
+          success: function(respuesta){
+            //console.log(respuesta)
+          }
+      });
+
+}
 
