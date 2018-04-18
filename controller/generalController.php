@@ -34,4 +34,9 @@ if(isset($_POST["Usuario"]) && $_POST["Usuario"]=="registrarUser"){
 	echo json_encode($registrarUsuario);return;
 }
 
+if(isset($_GET["id"]) && $_GET["id"]!=null){
+	//echo "ok";return;
+	$r = $general->actualizarSesiones($_GET["id"], $_GET["token"]);
+	echo $r;
+}
 ?>
