@@ -15,20 +15,14 @@ section.add-16 {
         text-transform: uppercase;
     }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg);
+    font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
     .section-heading {
     }
-    .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
@@ -55,16 +49,12 @@ section.add-16 {
 
     }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 30rem;
-    line-height: 1px;
-    bottom: 561px;
-    left: 491px;
-    -ms-transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
+        margin-top:100px;
+        color:balck;
+        font-family: 'Exo', sans-serif;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
 }
     .feature-item {

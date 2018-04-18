@@ -33,7 +33,8 @@ section.add-7 {
                 a {
                    
                     &:hover {
-                        background-color: darken($brand-twitter, 5%);
+                        background-color: white;
+                        color: darken($brand-twitter, 5%);
                     }
                 }
             }
@@ -41,15 +42,17 @@ section.add-7 {
                 a {
                     
                     &:hover {
-                        background-color: darken($brand-facebook, 5%);
+                        background-color: white;
+                        color: darken($brand-facebook, 5%);
                     }
                 }
             }
-            &.social-google-plus {
+            &.social-linkedin {
                 a {
                     
                     &:hover {
-                        background-color: darken($brand-linkedin, 5%);
+                        background-color: white;
+                        color: darken($brand-linkedin, 5%);
                     }
                 }
             }

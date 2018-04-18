@@ -4,37 +4,165 @@ section.add-3 {
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 800;
         text-transform: uppercase;
     }
-    span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
+    h3{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 23rem;
+    font-weight: 300;
     line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
+    color: #000;
+    position: absolute;
+    bottom: 31px;
+    left: -54%;
+    -ms-transform: rotate(-14deg);
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+    }
+
+
+
+    @media (min-width: 576px) {
+    h2 {
+        color:yellow;
+        font-family: 'Exo', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 2.5rem;
+    }
+    h3 {
+        font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
+    line-height: 1px;
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    }
+    }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    h2 {
+        font-size: 4rem;;
+        font-weight: 800;
+        line-height: 4rem;;
+        text-transform: uppercase;
+
+    }
+    h3{
+       
+        font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
+    line-height: 1px;
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    }
+    }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 6rem;
+        font-weight: 800;
+        line-height: 5rem;
+        text-transform: uppercase;
+
+    }
+    h3{
+       font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
+    line-height: 1px;
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    }
+ }
+ // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1500px) and (max-width: 1879.98px) {
+    h2{
+    color: yellow;
+    font-family: 'Exo', sans-serif;
+    font-size: 7rem;
+    font-weight: 800;
+    line-height: 7rem;
+    text-transform: uppercase;
+
+    }
+     h3{font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
+    line-height: 1px;
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    }
+    }
+    @media (min-width: 1880px) {
+    h2{
+    color: yellow;
+    font-family: 'Exo', sans-serif;
+    font-size: 9rem;
+    font-weight: 800;
+    line-height: 9rem;
+    text-transform: uppercase;
+
+    }
+     h3{font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
+    line-height: 1px;
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
     transform: rotate(-19deg);
     }
     
-    .section-heading {
     }
-    .device-container,
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
 
-    }
+
+
+
+
+
+
+
+
     @media(min-width: 768px) {
     h2 {
         color:#000;
@@ -43,17 +171,19 @@ section.add-3 {
         font-weight: 800;
         text-transform: uppercase;
     }
-    span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 54rem;
+    h3{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 59rem;
+    font-weight: 300;
     line-height: 1px;
-    bottom: 198px;
-    left: 343px;
-     -ms-transform: rotate(-27deg); /* IE 9 */
-    -webkit-transform: rotate(-27deg); /* Safari 3-8 */
-    transform: rotate(-27deg);
+    color: #000;
+    position: absolute;
+    bottom: 193px;
+    left: 70%;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
     }
 }
     .feature-item {
