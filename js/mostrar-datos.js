@@ -1,9 +1,4 @@
-
-<<<<<<< HEAD
 document.querySelector('#add4BtnForm').addEventListener('click',salvarCampo);
-=======
-//document.querySelector('#btn-enviar').addEventListener('click',salvarCampo);
->>>>>>> 8afc0b1576b094aad938f5ee83971a17d252ad2e
 
 impTablaCampos()
 
