@@ -1,77 +1,51 @@
 // Styling for the features
 section.add-17 {
-    background-color:#fff !important;
+    background-color:#ff7f00 !important;
+    h1 {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 3.5rem;
+        font-weight: 800;
+        color:#fff;
+    }
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
-        line-height:2.5rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    h3 {
-        font-family: 'Exo', sans-serif;
-        color: red;
-        font-size: 4rem;
-        line-height: 3.2rem;
         font-weight: 800;
         text-transform: uppercase;
     }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 20rem;
-    line-height: 1px;
-    bottom: 127px;
-    left: 256px;
-    -ms-transform: rotate(-27deg);
-    -webkit-transform: rotate(-27deg);
-    transform: rotate(-19deg);
+    font-family: 'Exo', sans-serif;
+        color: #000;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
     .17tf{
         color: red;
     }
 
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
+    @media(min-width: 768px) {
+    h2 {margin-top:100px;
+        color:#fff;
+        font-family: 'Exo', sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+         i{
+            font-size:9rem;
+            margin-top: -131%;
+            line-height: 9rem;
         }
 
     }
-    @media(min-width: 768px) {
-
-    h2 {
-        color:#000;
-        font-family: 'Exo', sans-serif;
-        font-size: 6rem;
-        line-height: 5rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-     h3 {
-        font-family: 'Exo', sans-serif;
-        font-size: 6rem;
-        line-height: 5rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 54rem;
-    line-height: 1px;
-    bottom: 198px;
-    left: 343px;
-    -ms-transform: rotate(-27deg); /* IE 9 */
-    -webkit-transform: rotate(-27deg); /* Safari 3-8 */
-    transform: rotate(-27deg);
+        margin-top:100px;
+        color:balck;
+        font-family: 'Exo', sans-serif;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
 }
     .feature-item {
@@ -92,3 +66,6 @@ section.add-17 {
         }
     }
 }
+
+
+

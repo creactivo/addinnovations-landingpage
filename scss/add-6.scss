@@ -1,23 +1,26 @@
 // Styling for the features
 section.add-6 {
     background-color:white !important;
-    h1 {
+    h3 {
         font-family: 'Calligraffitti', cursive;
         font-size: 2rem;
         font-weight: 800;
         color:purple;
+        text-align: right;
     }
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
         font-weight: 800;
+        text-align: right;
         text-transform: uppercase;
     }
-    h3 {
+    h4 {
         font-size: 1.9rem;
         font-weight: 800;
         color:#000;
+        text-align: right;
     }
     span{
     color: #000;
@@ -30,24 +33,14 @@ section.add-6 {
     -ms-transform: rotate(16deg);
     -webkit-transform: rotate(16deg);
     transform: rotate(16deg);
+    text-align: right;
     }
-    .section-heading {
-    }
-    .device-container,
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
+   
 
-    }
+
     @media(min-width: 768px) {
-    h1 {
-        font-family: 'Calligraffitti', cursive;
+    h3 {
+        font-family: 'Handlee', cursive;
         font-size: 3rem;
         font-weight: 800;
         
@@ -60,7 +53,7 @@ section.add-6 {
         font-weight: 800;
         text-transform: uppercase;
     }
-    h3 {
+    h4 {
         font-size: 4rem;
         font-weight: 800;
         color:#000;
@@ -78,21 +71,5 @@ section.add-6 {
     transform: rotate(-20deg);
     }
 }
-    .feature-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        text-align: center;
-        h3 {
-            font-size: 20px;
-        }
-        i {
-            font-size: 60px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    }
+   
 }

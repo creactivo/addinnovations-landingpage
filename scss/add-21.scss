@@ -14,6 +14,12 @@ section.add-21 {
         font-weight: 800;
         text-transform: uppercase;
     }
+    .clock{
+        font-family: 'Exo', sans-serif;
+        font-size: 3rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
     span{
     color: #000;
     font-weight: 800;
@@ -28,6 +34,7 @@ section.add-21 {
     }
     .section-heading {
     }
+    .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
