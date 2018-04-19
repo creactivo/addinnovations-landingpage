@@ -606,6 +606,7 @@ Y POSICIONAR </h3>
   <script type="text/javascript">
     
     $(document).ready(function() {
+
       $("#add4BtnForm").on('click', () => {
         
         let nombre = $("#textNombre").val()
@@ -639,7 +640,6 @@ Y POSICIONAR </h3>
               contentType: false,
               success: function(respuesta){
                 let rpt = eval(respuesta)
-                console.log(rpt);
                 if($.isNumeric(rpt)){
                   localStorage.setItem("Usuario", rpt)
                   localStorage.setItem('Nombre', JSON.stringify(nombre))
@@ -1066,7 +1066,7 @@ Y POSICIONAR </h3>
               $('#add20Form').append('<div class="form-row">'+
                                           '<div class="form-group col-md-6"> '+
                                           '<label for="add20Form">Nombre de la empresa</label>'+
-                                          '<input type="text" class="form-control" id="add20NombreEmp" placeholder="Nombre de la empresa">'+
+                                          '<input type="text" class="form-control" name="add20NombreEmp" id="add20NombreEmp" placeholder="Nombre de la empresa">'+
                                         '</div>'+
                                         '<div class="form-group col-md-6">'+
                                           '<label for="add20Form2">Cargo</label>'+
@@ -1083,7 +1083,7 @@ Y POSICIONAR </h3>
                                           '<input type="address" class="form-control" id="add20Direccion" placeholder="Dirección">'+
                                         '</div>'+
                                       '</div>'+
-                                      '<button class="btn btn-info-2" type="button" id="add20BtnForm">Enviar <i class="far fa-paper-plane"></i></button>')
+                                      '<button class="btn btn-info-2" type="button" id="add20BtnForm" onclick="FormNormal(document.getElementById(\'add20NombreEmp\').value, document.getElementById(\'add20Cargo\').value, document.getElementById(\'add20Telefono\').value, document.getElementById(\'add20Direccion\').value)">Enviar <i class="far fa-paper-plane"></i></button>')
             }else{
               $('#add20Form').html('')
               $('#add20Form').append('<div class="form-row">'+
@@ -1116,7 +1116,7 @@ Y POSICIONAR </h3>
                                           '<input type="address" class="form-control" id="add20Direccion" placeholder="Dirección">'+
                                         '</div>'+
                                       '</div>'+
-                                      '<button class="btn btn-info-2" type="button" id="add20BtnForm">Enviar <i class="far fa-paper-plane"></i></button>')
+                                      '<button class="btn btn-info-2" type="button" id="add20BtnFormCompl" onclick="FormCompl(document.getElementById(\'add20Nombre\').value, document.getElementById(\'add20Email\').value, document.getElementById(\'add20NombreEmp\').value, document.getElementById(\'add20Cargo\').value, document.getElementById(\'add20Telefono\').value, document.getElementById(\'add20Direccion\').value)">Enviar <i class="far fa-paper-plane"></i></button>')
             }
 
 
@@ -1147,6 +1147,7 @@ Y POSICIONAR </h3>
       });
 
     });
+    
     
   </script>
 
