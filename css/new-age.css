@@ -160,6 +160,25 @@ section.add-2 {
   background-size: inherit;
   position: relative;
   padding: 0; }
+  section.add-2 h2 {
+    color: yellow;
+    font-family: 'Exo', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.5rem; }
+  section.add-2 h3 {
+    color: yellow;
+    font-family: 'Exo', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.5rem; }
+  section.add-2 h4 {
+    font-family: 'Handlee', cursive;
+    font-size: 3.5rem;
+    line-height: 3rem;
+    font-weight: 400; }
   @media (min-width: 576px) {
     section.add-2 h2 {
       color: yellow;
@@ -250,160 +269,67 @@ section.add-3 {
   section.add-3 h2 {
     font-family: 'Exo', sans-serif;
     color: #000;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
     font-weight: 800;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
   section.add-3 h3 {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 23rem;
+    font-size: 24rem;
+    line-height: 18rem;
     font-weight: 300;
-    line-height: 1px;
     color: #000;
     position: absolute;
-    bottom: 31px;
-    left: -54%;
+    bottom: -109px;
+    right: -223%;
     -ms-transform: rotate(-14deg);
     -webkit-transform: rotate(-14deg);
     transform: rotate(-14deg); }
   @media (min-width: 576px) {
     section.add-3 h2 {
-      color: yellow;
       font-family: 'Exo', sans-serif;
-      font-size: 2.5rem;
+      color: #000;
+      font-size: 4.5rem;
+      line-height: 4rem;
       font-weight: 800;
       text-transform: uppercase;
-      line-height: 2.5rem; }
+      text-align: left; }
     section.add-3 h3 {
       font-family: 'Lora', serif;
       font-style: italic;
-      font-size: 59rem;
       font-weight: 300;
-      line-height: 1px;
+      font-size: 53rem;
+      line-height: 0rem;
+      font-weight: 300;
       color: #000;
       position: absolute;
-      bottom: 193px;
-      left: 70%;
+      bottom: 0;
+      right: 0;
       -ms-transform: rotate(-19deg);
       -webkit-transform: rotate(-19deg);
       transform: rotate(-19deg); } }
   @media (min-width: 768px) {
     section.add-3 h2 {
-      font-size: 4rem;
-      font-weight: 800;
-      line-height: 4rem;
-      text-transform: uppercase; }
-    section.add-3 h3 {
-      font-family: 'Lora', serif;
-      font-style: italic;
-      font-size: 59rem;
-      font-weight: 300;
-      line-height: 1px;
-      color: #000;
-      position: absolute;
-      bottom: 193px;
-      left: 70%;
-      -ms-transform: rotate(-19deg);
-      -webkit-transform: rotate(-19deg);
-      transform: rotate(-19deg); } }
-  @media (min-width: 1200px) {
-    section.add-3 h2 {
-      font-size: 6rem;
-      font-weight: 800;
-      line-height: 5rem;
-      text-transform: uppercase; }
-    section.add-3 h3 {
-      font-family: 'Lora', serif;
-      font-style: italic;
-      font-size: 59rem;
-      font-weight: 300;
-      line-height: 1px;
-      color: #000;
-      position: absolute;
-      bottom: 193px;
-      left: 70%;
-      -ms-transform: rotate(-19deg);
-      -webkit-transform: rotate(-19deg);
-      transform: rotate(-19deg); } }
-  @media (min-width: 1500px) and (max-width: 1879.98px) {
-    section.add-3 h2 {
-      color: yellow;
-      font-family: 'Exo', sans-serif;
       font-size: 7rem;
       font-weight: 800;
       line-height: 7rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #000; }
     section.add-3 h3 {
       font-family: 'Lora', serif;
       font-style: italic;
-      font-size: 59rem;
+      font-size: 75rem;
       font-weight: 300;
       line-height: 1px;
       color: #000;
       position: absolute;
-      bottom: 193px;
-      left: 70%;
+      bottom: 0%;
+      right: 0%;
       -ms-transform: rotate(-19deg);
       -webkit-transform: rotate(-19deg);
       transform: rotate(-19deg); } }
-  @media (min-width: 1880px) {
-    section.add-3 h2 {
-      color: yellow;
-      font-family: 'Exo', sans-serif;
-      font-size: 9rem;
-      font-weight: 800;
-      line-height: 9rem;
-      text-transform: uppercase; }
-    section.add-3 h3 {
-      font-family: 'Lora', serif;
-      font-style: italic;
-      font-size: 59rem;
-      font-weight: 300;
-      line-height: 1px;
-      color: #000;
-      position: absolute;
-      bottom: 193px;
-      left: 70%;
-      -ms-transform: rotate(-19deg);
-      -webkit-transform: rotate(-19deg);
-      transform: rotate(-19deg); } }
-  @media (min-width: 768px) {
-    section.add-3 h2 {
-      color: #000;
-      font-family: 'Exo', sans-serif;
-      font-size: 5rem;
-      font-weight: 800;
-      text-transform: uppercase; }
-    section.add-3 h3 {
-      font-family: 'Lora', serif;
-      font-style: italic;
-      font-size: 59rem;
-      font-weight: 300;
-      line-height: 1px;
-      color: #000;
-      position: absolute;
-      bottom: 193px;
-      left: 70%;
-      -ms-transform: rotate(-19deg);
-      -webkit-transform: rotate(-19deg);
-      transform: rotate(-19deg); } }
-  section.add-3 .feature-item {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    text-align: center; }
-    section.add-3 .feature-item h3 {
-      font-size: 20px; }
-    section.add-3 .feature-item i {
-      font-size: 60px;
-      display: block;
-      margin-bottom: 15px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-      background: -webkit-linear-gradient(right, #7b4397, #dc2430);
-      background: -o-linear-gradient(right, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; }
 
 section.add-4 {
   background-color: #BCBAB7 !important; }
