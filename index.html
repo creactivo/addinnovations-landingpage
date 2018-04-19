@@ -1018,7 +1018,7 @@ Y POSICIONAR </h3>
             registrarDiapo(index, resultado)
           }
 
-           if(nextIndex == 20 && direction =="up"){
+           /*if(nextIndex == 20 && direction =="up"){
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
@@ -1030,15 +1030,15 @@ Y POSICIONAR </h3>
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+index+" bajando")
             registrarDiapo(index, resultado)
-          }
+          }*/
 
-           if(nextIndex == 21 && direction =="up"){
+           if(nextIndex == 20 && direction =="up"){
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+index+" regresastes")
             registrarDiapo(index, resultado)
-          }else if(nextIndex == 21 && direction =="down"){
+          }else if(nextIndex == 20 && direction =="down"){
             //Formularios
             if(localStorage.getItem("Nombre") != null){
               $('#add20Form').html('')
