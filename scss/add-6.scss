@@ -71,5 +71,39 @@ section.add-6 {
     transform: rotate(-20deg);
     }
 }
+// Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+         h3 {
+        font-family: 'Handlee', cursive;
+        font-size: 3rem;
+        font-weight: 800;
+        
+    }
+    h2 {
+        color:#000;
+        font-family: 'Exo', sans-serif;
+        font-size: 10rem;
+        line-height: 10rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 4rem;
+        font-weight: 800;
+        color:#000;
+    }
+
+    span{
+    font-size: 9rem;
+    color: #000;
+    font-weight: 800;
+    position: absolute;
+    font-size: 3rem;
+    line-height: 1px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+    }
+    }
    
 }
