@@ -634,7 +634,7 @@ EN UN SITIO WEB</h2>
                      
                   <h2 class="text-center">Contactanos...</h2>
                
-                 <form>
+                 <form id="add20Form>
                     <div class="form-row">
                       <div class="form-group col-md-6">
                        
@@ -692,9 +692,11 @@ EN UN SITIO WEB</h2>
                 </div>
             </div>
         </section>
-
-        
-
+                                       
+                                       
+                                       
+                                       
+                
     
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -716,6 +718,7 @@ EN UN SITIO WEB</h2>
   <script type="text/javascript">
     
     $(document).ready(function() {
+
       $("#add4BtnForm").on('click', () => {
         
         let nombre = $("#textNombre").val()
@@ -749,7 +752,6 @@ EN UN SITIO WEB</h2>
               contentType: false,
               success: function(respuesta){
                 let rpt = eval(respuesta)
-                console.log(rpt);
                 if($.isNumeric(rpt)){
                   localStorage.setItem("Usuario", rpt)
                   localStorage.setItem('Nombre', JSON.stringify(nombre))
@@ -768,9 +770,6 @@ EN UN SITIO WEB</h2>
                   alert("ocurrio un error, al hacer una transaccion con la base de datos")
                   return;
                 }*/
-                
-                
-                
               }
           });
         
@@ -1151,7 +1150,7 @@ EN UN SITIO WEB</h2>
             registrarDiapo(index, resultado)
           }
 
-           if(nextIndex == 20 && direction =="up"){
+           /*if(nextIndex == 20 && direction =="up"){
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
@@ -1163,15 +1162,89 @@ EN UN SITIO WEB</h2>
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+index+" bajando")
             registrarDiapo(index, resultado)
-          }
+          }*/
 
-           if(nextIndex == 21 && direction =="up"){
+           if(nextIndex == 20 && direction =="up"){
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
             console.log("Tradastes"+ resultado + " en la diapositiva "+index+" regresastes")
             registrarDiapo(index, resultado)
-          }else if(nextIndex == 21 && direction =="down"){
+          }else if(nextIndex == 20 && direction =="down"){
+            //Formularios
+            if(localStorage.getItem("Nombre") != null){
+              $('#add20Form').html('')
+              $('#add20Form').append('<div class="form-row">'+
+                                          '<div class="form-group col-md-6"> '+
+                                          '<label for="add20Form">Nombre de la empresa</label>'+
+                                          '<input type="text" class="form-control" name="add20NombreEmp" id="add20NombreEmp" placeholder="Nombre de la empresa">'+
+                                        '</div>'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form2">Cargo</label>'+
+                                          '<input type="text" class="form-control" id="add20Cargo" placeholder="Cargo">'+
+                                        '</div>'+
+                                      '</div>'+
+                                      '<div class="form-row">'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form3">Teléfono</label>'+
+                                          '<input type="tel" class="form-control" id="add20Telefono" placeholder="(5+) Numero">'+
+                                        '</div>'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form4">Dirección</label>'+
+                                          '<input type="address" class="form-control" id="add20Direccion" placeholder="Dirección">'+
+                                        '</div>'+
+                                      '</div>'+
+                                      '<button class="btn btn-info-2" type="button" id="add20BtnForm" onclick="FormNormal(document.getElementById(\'add20NombreEmp\').value, document.getElementById(\'add20Cargo\').value, document.getElementById(\'add20Telefono\').value, document.getElementById(\'add20Direccion\').value)">Enviar <i class="far fa-paper-plane"></i></button>')
+            }else{
+              $('#add20Form').html('')
+              $('#add20Form').append('<div class="form-row">'+
+                                          '<div class="form-group col-md-6"> '+
+                                          '<label for="add20Form">Nombre </label>'+
+                                          '<input type="text" class="form-control" id="add20Nombre" placeholder="Nombre">'+
+                                        '</div>'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form2">Email</label>'+
+                                          '<input type="text" class="form-control" id="add20Email" placeholder="Correo electronico">'+
+                                        '</div>'+
+                                      '</div>'+
+                                      '<div class="form-row">'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form3">Nombre de la empresa</label>'+
+                                          '<input type="tel" class="form-control" id="add20NombreEmp" placeholder="Nombre empresa">'+
+                                        '</div>'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form4">Cargo</label>'+
+                                          '<input type="address" class="form-control" id="add20Cargo" placeholder="Cargo">'+
+                                        '</div>'+
+                                      '</div>'+
+                                      '<div class="form-row">'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form3">Teléfono</label>'+
+                                          '<input type="tel" class="form-control" id="add20Telefono" placeholder="(+5) Numero">'+
+                                        '</div>'+
+                                        '<div class="form-group col-md-6">'+
+                                          '<label for="add20Form4">Dirección</label>'+
+                                          '<input type="address" class="form-control" id="add20Direccion" placeholder="Dirección">'+
+                                        '</div>'+
+                                      '</div>'+
+                                      '<button class="btn btn-info-2" type="button" id="add20BtnFormCompl" onclick="FormCompl(document.getElementById(\'add20Nombre\').value, document.getElementById(\'add20Email\').value, document.getElementById(\'add20NombreEmp\').value, document.getElementById(\'add20Cargo\').value, document.getElementById(\'add20Telefono\').value, document.getElementById(\'add20Direccion\').value)">Enviar <i class="far fa-paper-plane"></i></button>')
+            }
+
+
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+index+" bajando")
+            registrarDiapo(index, resultado)
+          }  
+
+          if(nextIndex == 22 && direction =="up"){
+            let varTF = cronometro();
+            let resultado = restarHoras(varTF, varTI)
+            varTI = cronometro();
+            console.log("Tradastes"+ resultado + " en la diapositiva "+index+" regresastes")
+            registrarDiapo(index, resultado)
+          }else if(nextIndex == 22 && direction =="down"){
             let varTF = cronometro();
             let resultado = restarHoras(varTF, varTI)
             varTI = cronometro();
@@ -1185,6 +1258,7 @@ EN UN SITIO WEB</h2>
       });
 
     });
+    
     
   </script>
 

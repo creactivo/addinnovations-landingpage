@@ -89,3 +89,87 @@ var registrarDiapo = function(diapo, tiempo){
 
 }
 
+var FormNormal = function(empresa, cargo, telefono, direccion){
+	var datos = new FormData();
+		datos.append("id", localStorage.getItem("Usuario"));
+		datos.append("empresa", empresa);
+		datos.append("cargo", cargo);
+		datos.append("telefono", telefono);
+		datos.append("direccion", direccion);
+        datos.append("actualizarUsuario", "actualizarCom");
+        $.ajax({
+          url: 'http://localhost/addinnovations-landingpage/controller/generalController.php', 
+          type: 'POST',
+          data: datos,
+          cache: false,
+          processData: false,
+          contentType: false,
+          success: function(respuesta){
+            //console.log(respuesta)
+            var rpt = eval(respuesta)
+            if(rpt=='tel_req'){
+            	alert("al menos danos tu telefono")
+            	return
+            }
+            if(rpt){
+            	window.location=""//diapositiva a ubicar
+            	return
+            }
+            if(!rpt){
+            	alert("ocurrio un error al guardar tus datos")
+            	return
+            }
+          }
+      });
+}
+
+var FormCompl = function(nombre, email, empresa, cargo, telefono, direccion){
+	//*alert("complemento")
+	var datos = new FormData();
+		datos.append("nombre", nombre);
+		datos.append("email", email);
+		datos.append("empresa", empresa);
+		datos.append("cargo", cargo);
+		datos.append("telefono", telefono);
+		datos.append("direccion", direccion);
+		datos.append("token_re", localStorage.getItem("Token"));
+		datos.append("ip", localStorage.getItem("textIp"));
+        datos.append("usuarioCompleto", "userCompleto");
+        $.ajax({
+          url: 'http://localhost/addinnovations-landingpage/controller/generalController.php', 
+          type: 'POST',
+          data: datos,
+          cache: false,
+          processData: false,
+          contentType: false,
+          success: function(respuesta){
+            //onsole.log(respuesta);return;
+            var rpt = eval(respuesta)
+            if($.isNumeric(rpt)){
+                localStorage.setItem("Usuario", rpt)
+                localStorage.setItem('Nombre', JSON.stringify(nombre))
+                //window.location = '#add-5'
+                return;
+            }
+            if(rpt=='email_regis'){
+            	alert('gracias ya tenemos guardado tus datos');
+            	return;
+            }
+            if(rpt=='error_mail'){
+            	alert("Correo electronico tiene formato no valido")
+            	return
+            }
+            if(rpt=='nom_email_tel_req'){
+            	alert("es necesario nombre, email y telefono para poder contactarte")
+            	return
+            }
+            if(!rpt){
+            	alert("ocurrio un error al guardar tus datos")
+            	return
+            }
+          }
+      });
+
+}
+
+

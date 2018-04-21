@@ -34,4 +34,37 @@ if(isset($_POST["Usuario"]) && $_POST["Usuario"]=="registrarUser"){
 	echo json_encode($registrarUsuario);return;
 }
 
+if(isset($_GET["id"]) && $_GET["id"]!=null){
+	//echo "ok";return;
+	$r = $general->actualizarSesiones($_GET["id"], $_GET["token"]);
+	echo $r;
+}
+
+if(isset($_POST["actualizarUsuario"]) && $_POST["actualizarUsuario"]=="actualizarCom"){
+	$datos = array(
+		"id" => $_POST["id"],
+		"empresa" => $_POST["empresa"],
+		"cargo" => $_POST["cargo"],
+		"telefono" => $_POST["telefono"],
+		"direccion" => $_POST["direccion"],
+	);
+	$r = $general->actualizarUsuario($datos);
+	echo json_encode($r);
+
+}
+
+if(isset($_POST["usuarioCompleto"]) && $_POST["usuarioCompleto"]=="userCompleto"){
+	$datos=array(
+		"nombre" => $_POST["nombre"],
+		"email" => $_POST["email"],
+		"empresa" => $_POST["empresa"],
+		"cargo" => $_POST["cargo"],
+		"telefono" => $_POST["telefono"],
+		"direccion" => $_POST["direccion"],
+		"token_re" => $_POST["token_re"],
+		"ip" => $_POST["ip"],
+	);
+	$r = $general->usuarioIntoCompl($datos);
+	echo json_encode($r);
+}
 ?>
