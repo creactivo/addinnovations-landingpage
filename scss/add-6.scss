@@ -1,8 +1,25 @@
 // Styling for the features
 section.add-6 {
     background-color:white !important;
+    .background-interrogacionright{
+        top: 0px;
+        position: absolute;
+        background-attachment: cover;
+        background: url(../svg/interrogacionright.svg);
+        background: url(../svg/interrogacionright.svg);
+        background: url(../svg/interrogacionright.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: inherit;   
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        visibility: collapse;
+        display: none;
+    }
+
     h3 {
-        font-family: 'Calligraffitti', cursive;
+        font-family: 'Handlee', cursive;
         font-size: 2rem;
         font-weight: 800;
         color:purple;
@@ -23,22 +40,28 @@ section.add-6 {
         text-align: right;
     }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 5rem;
-    line-height: 1px;
-    bottom: 21px;
-    left: 333px;
-    -ms-transform: rotate(16deg);
-    -webkit-transform: rotate(16deg);
-    transform: rotate(16deg);
     text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
+    line-height: 1px;
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
     }
    
 
 
     @media(min-width: 768px) {
+    .background-interrogacionright{
+            visibility: visible;
+            display: initial;
+        }
+
     h3 {
         font-family: 'Handlee', cursive;
         font-size: 3rem;
@@ -60,30 +83,35 @@ section.add-6 {
     }
 
     span{
-    font-size: 9rem;
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 3rem;
+    text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
     line-height: 1px;
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
-    transform: rotate(-20deg);
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    visibility: collapse;
+    display: none;
     }
 }
 // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
          h3 {
         font-family: 'Handlee', cursive;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 800;
         
     }
     h2 {
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 10rem;
-        line-height: 10rem;
+        font-size: 11rem;
+        line-height: 11rem;
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -94,15 +122,18 @@ section.add-6 {
     }
 
     span{
-    font-size: 9rem;
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 3rem;
+    text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
     line-height: 1px;
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
-    transform: rotate(-20deg);
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
     }
     }
    

@@ -1,79 +1,59 @@
 // Styling for the features
 section.add-16 {
-    background-color:#ff7f00 !important;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
-        font-size: 3.5rem;
-        font-weight: 800;
-        color:#fff;
-    }
+    background-attachment: cover;
+    background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%,#120f0f 100%);
+    background: radial-gradient(ellipse at center, #233f70 3%,#120f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+    background-size: inherit;   
+    position: relative;
+    padding:0;
+    
     h2 {
         font-family: 'Exo', sans-serif;
-        color: #000;
-        font-size: 3rem;
+        color:white;
+        font-size: 1.5rem;
         font-weight: 800;
-        text-transform: uppercase;
+        
+    }
+    h3 {
+        font-family: 'Handlee', cursive;
+        color:white;
+        font-size: 1rem;
+        font-weight: 400;
     }
     span{
-    font-family: 'Exo', sans-serif;
-        color: #000;
-        font-size: 3rem;
+        font-family: 'Exo', sans-serif;
+        color:red;
+        font-size: 1.5rem;
         font-weight: 800;
-        text-transform: uppercase;
     }
-    .section-heading {
-    }
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
 
-    }
     @media(min-width: 768px) {
-    h2 {margin-top:100px;
-        color:#fff;
+    h2 {
         font-family: 'Exo', sans-serif;
-        font-size: 2rem;
+        color:white;
+        font-size: 3.5rem;
         font-weight: 800;
-        text-transform: uppercase;
-         i{
-            font-size:9rem;
-            margin-top: -131%;
-            line-height: 9rem;
-        }
+        
+    }
+    h3 {
+        font-family: 'Handlee', cursive;
+        color:yellow;
+        font-size: 2rem;
+        font-weight: 400;
+         
 
     }
     span{
-        margin-top:100px;
-        color:balck;
         font-family: 'Exo', sans-serif;
-        font-size: 3rem;
+        color:red;
+        font-size: 2.5rem;
         font-weight: 800;
-        text-transform: uppercase;
     }
+    
 }
-    .feature-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        text-align: center;
-        h3 {
-            font-size: 20px;
-        }
-        i {
-            font-size: 60px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    }
+    
 }
 
 

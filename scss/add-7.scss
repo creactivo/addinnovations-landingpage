@@ -20,11 +20,11 @@ section.add-7 {
         margin-bottom: 0;
         li {
             a {text-align: center;
-                font-size: 40px;
-                line-height: 80px;
+                font-size: 30px;
+                line-height: 60px;
                 display: block;
-                width: 80px;
-                height: 80px;
+                width: 60px;
+                height: 60px;
                 color: white;
                 border-radius: 100%;
                 border:2px solid #fff;
@@ -81,15 +81,15 @@ section.add-7 {
         right: -10px;
         top: 30px;
         font-family: 'Handlee', cursive;
-        font-size: 10rem;
+        font-size: 7rem;
         font-weight: 800;
         
     }
     h3 {
         color:#000;
         font-family: 'Exo', sans-serif;
-        font-size: 5rem;
-        line-height: 4.5rem;
+        font-size: 4rem;
+        line-height: 4rem;
         font-weight: 800;
         text-transform: uppercase;
     }
@@ -104,13 +104,55 @@ section.add-7 {
     color: #000;
     font-weight: 400;
     position: absolute;
-    font-size: 44rem;
+    font-size: 28rem;
     line-height: 1px;
     bottom: 20%;
-    left: -310%;
+    left: -251%;
     -ms-transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     }
 }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    }
+
+ // Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {
+     h2 {
+        font-size: 6rem;
+        font-weight: 800;
+        line-height: 8.5rem;
+        padding-right: 40px;
+        text-transform: uppercase;
+
+   }
+    
+  }
+  // Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1500px) and (max-width: 1879.98px) {
+     h2{
+    font-family: 'Handlee', cursive;
+     font-size: 6rem;
+     font-weight: 800;
+     line-height: 6rem;
+     padding-right: 40px;
+     text-transform: uppercase;
+
+     }
+
+     }
+     @media (min-width: 1880px) {
+     h2{
+     font-family: 'Exo', sans-serif;
+     font-size: 8rem;
+     font-weight: 800;
+     padding-right: 40px;
+     line-height: 8rem;
+     text-transform: uppercase;
+
+     }
+      
+    
+    }
 }
