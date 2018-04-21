@@ -8,17 +8,15 @@ section.add-20 {
         font-weight: 800;
         text-transform: uppercase;
     }
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
+     .clock{
+        font-family: 'Exo', sans-serif;
+        color: red;
+        font-size: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
     }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
 
-    }
+
     @media(min-width: 768px) {
     h1 {
         position: relative;

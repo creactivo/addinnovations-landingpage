@@ -1,20 +1,21 @@
 // Styling for the features
 section.add-19 {
-    background-color:#BCBAB7 !important;
+    background-color:#fff !important;
     h2 {
-        font-family: 'Exo', sans-serif;
-        color: #052A56;
-        font-size: 1rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    .clock{
         font-family: 'Exo', sans-serif;
         color: red;
         font-size: 1rem;
         font-weight: 800;
         text-transform: uppercase;
     }
+    h3{
+     font-family: 'Exo', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;   
+    }
+   
 
     @media(min-width: 768px) {
 
@@ -24,6 +25,13 @@ section.add-19 {
         line-height: 4.5rem;
         font-weight: 800;
         text-transform: uppercase;
+    }
+    h3{
+      font-family: 'Exo', sans-serif;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;  
     }
     .clock{
         font-family: 'Exo', sans-serif;

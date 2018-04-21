@@ -1566,18 +1566,18 @@ section.add-18 {
       -webkit-text-fill-color: transparent; }
 
 section.add-19 {
-  background-color: #BCBAB7 !important; }
+  background-color: #fff !important; }
   section.add-19 h2 {
-    font-family: 'Exo', sans-serif;
-    color: #052A56;
-    font-size: 1rem;
-    font-weight: 800;
-    text-transform: uppercase; }
-  section.add-19 .clock {
     font-family: 'Exo', sans-serif;
     color: red;
     font-size: 1rem;
     font-weight: 800;
+    text-transform: uppercase; }
+  section.add-19 h3 {
+    font-family: 'Exo', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
     text-transform: uppercase; }
   @media (min-width: 768px) {
     section.add-19 h2 {
@@ -1585,6 +1585,12 @@ section.add-19 {
       font-size: 3rem;
       line-height: 4.5rem;
       font-weight: 800;
+      text-transform: uppercase; }
+    section.add-19 h3 {
+      font-family: 'Exo', sans-serif;
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      font-weight: 600;
       text-transform: uppercase; }
     section.add-19 .clock {
       font-family: 'Exo', sans-serif;
@@ -1601,11 +1607,12 @@ section.add-20 {
     font-size: 3rem;
     font-weight: 800;
     text-transform: uppercase; }
-  section.add-20 .feature-item {
-    max-width: 325px;
-    margin: 0 auto; }
-  section.add-20 .device-container {
-    margin-bottom: 0px; }
+  section.add-20 .clock {
+    font-family: 'Exo', sans-serif;
+    color: red;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase; }
   @media (min-width: 768px) {
     section.add-20 h1 {
       position: relative;
