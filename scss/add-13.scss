@@ -1,9 +1,10 @@
 // Styling for the features
 section.add-13 {
-h1 {display:block;
+    h1 {
+        display:block;
         text-align: center;
         margin: 0 auto;
-        font-family: 'Exo', sans-serif;
+        font-family: 'Handlee', cursive;
         font-size: 1.5rem;
         line-height: 1.5rem;
         font-weight: 800;
@@ -21,91 +22,134 @@ h1 {display:block;
      h3 {
         display:block;
         text-align: center;
-        font-family: 'Exo', sans-serif;
-        color: #052A56;
-        font-size: 1.5rem;
+        font-family: 'Handlee', cursive;
+        color: #000;
+        font-size: 2rem;
         line-height: 1.5rem;
         font-weight: 800;
-        text-transform: uppercase;
     }
      h4 {
         display:block;
         text-align: center;
         font-family: 'Exo', sans-serif;
-        color: #fff;
+        color: #e40000;
         font-size: 1.5rem;
         line-height: 1.5rem;
-        font-weight: 300;
+        font-weight: 800;
+    }
+    span{
+        font-family: 'Exo', sans-serif;
+        color: #e40000;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 800;
         text-transform: uppercase;
-        font-style: italic;
-    }
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
 
     }
     @media(min-width: 768px) {
    h1 {display: block;
-    text-align: right;
+        font-weight: 800;
+        color:#000;
+        text-align: right;
         font-family: 'Exo', sans-serif;
         font-size: 2.5rem;
         line-height: 2.5rem;
-        font-weight: 800;
-        color:#000;
         font-style: italic;
 
     }
     h2 {
-        display: block;
+        display:block;
+        color: #e40000;  
         text-align: right;
         font-family: 'Exo', sans-serif;
-        font-size: 3rem;
-        line-height: 3rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
         font-weight: 800;
         text-transform: uppercase;
     }
      h3 {
-       display: block;
-       text-align: right;
-        font-family: 'Exo', sans-serif;
-        color: #052A56;
-        font-size: 2rem;
-        line-height: 2rem;
+
+
+        display:block;
+        font-family: 'Handlee', cursive;
+        color: #000;
         font-weight: 800;
-        text-transform: uppercase;
+        text-align: right;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
         font-style: italic;
     }
      h4 {
-       display: block;
-       text-align: right;
+        display:block;
+        color: #e40000;
+        font-weight: 800;
+        text-align: right;
         font-family: 'Exo', sans-serif;
-        color: #052A56;
         font-size: 2rem;
         line-height: 2rem;
-        font-weight: 300;
+    }
+    span{
+        font-family: 'Exo', sans-serif;
+        color: #e40000;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 800;
+        text-transform: uppercase;
+
     }
 }
-    .feature-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        text-align: center;
-        h3 {
-            font-size: 20px;
-        }
-        i {
-            font-size: 60px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+// Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1400px) {
+         h1 {display: block;
+        font-weight: 800;
+        color:#000;
+        text-align: right;
+        font-family: 'Exo', sans-serif;
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        font-style: italic;
+
     }
+    h2 {
+        display:block;
+        color: #e40000;  
+        text-align: right;
+        font-family: 'Exo', sans-serif;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+     h3 {
+
+
+        display:block;
+        font-family: 'Handlee', cursive;
+        color: #000;
+        font-weight: 800;
+        text-align: right;
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        font-style: italic;
+    }
+     h4 {
+        display:block;
+        color: #e40000;
+        font-weight: 800;
+        text-align: right;
+        font-family: 'Exo', sans-serif;
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    span{
+        font-family: 'Exo', sans-serif;
+        color: #e40000;
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 800;
+        text-transform: uppercase;
+
+    }
+    }
+    
 }

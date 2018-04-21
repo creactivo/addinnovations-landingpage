@@ -1,53 +1,69 @@
 // Styling for the features
 section.add-6 {
     background-color:white !important;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
+    .background-interrogacionright{
+        top: 0px;
+        position: absolute;
+        background-attachment: cover;
+        background: url(../svg/interrogacionright.svg);
+        background: url(../svg/interrogacionright.svg);
+        background: url(../svg/interrogacionright.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: inherit;   
+        width: 100%;
+        height: 50%;
+        top: 50%;
+        visibility: collapse;
+        display: none;
+    }
+
+    h3 {
+        font-family: 'Handlee', cursive;
         font-size: 2rem;
         font-weight: 800;
         color:purple;
+        text-align: right;
     }
     h2 {
         font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
         font-weight: 800;
+        text-align: right;
         text-transform: uppercase;
     }
-    h3 {
+    h4 {
         font-size: 1.9rem;
         font-weight: 800;
         color:#000;
+        text-align: right;
     }
     span{
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 5rem;
+    text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
     line-height: 1px;
-    bottom: 21px;
-    left: 333px;
-    -ms-transform: rotate(16deg);
-    -webkit-transform: rotate(16deg);
-    transform: rotate(16deg);
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
     }
-    .section-heading {
-    }
-    .device-container,
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
+   
+
+
+    @media(min-width: 768px) {
+    .background-interrogacionright{
+            visibility: visible;
+            display: initial;
         }
 
-    }
-    @media(min-width: 768px) {
-    h1 {
-        font-family: 'Calligraffitti', cursive;
+    h3 {
+        font-family: 'Handlee', cursive;
         font-size: 3rem;
         font-weight: 800;
         
@@ -60,39 +76,65 @@ section.add-6 {
         font-weight: 800;
         text-transform: uppercase;
     }
-    h3 {
+    h4 {
         font-size: 4rem;
         font-weight: 800;
         color:#000;
     }
 
     span{
-    font-size: 9rem;
-    color: #000;
-    font-weight: 800;
-    position: absolute;
-    font-size: 3rem;
+    text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
     line-height: 1px;
-    -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
-    transform: rotate(-20deg);
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    visibility: collapse;
+    display: none;
     }
 }
-    .feature-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        text-align: center;
-        h3 {
-            font-size: 20px;
-        }
-        i {
-            font-size: 60px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+// Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+         h3 {
+        font-family: 'Handlee', cursive;
+        font-size: 4rem;
+        font-weight: 800;
+        
     }
+    h2 {
+        color:#000;
+        font-family: 'Exo', sans-serif;
+        font-size: 11rem;
+        line-height: 11rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    h4 {
+        font-size: 4rem;
+        font-weight: 800;
+        color:#000;
+    }
+
+    span{
+    text-align: right;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    color:#000;
+    position: relative;
+    font-size: 20rem;
+    line-height: 1px;
+    bottom: 0px;
+    left: -61px;
+    -ms-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    transform: rotate(-19deg);
+    }
+    }
+   
 }

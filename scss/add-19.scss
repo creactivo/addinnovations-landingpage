@@ -1,59 +1,46 @@
 // Styling for the features
 section.add-19 {
-    background-color:#fff !important;
+    background-attachment: cover;
+    background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%,#120f0f 100%);
+    background: radial-gradient(ellipse at center, #233f70 3%,#120f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+    background-size: inherit;   
+    position: relative;
+    padding:0;
     h2 {
         font-family: 'Exo', sans-serif;
-        color: #000;
-        font-size: 3rem;
+        color: red;
+        font-size: 1rem;
         font-weight: 800;
         text-transform: uppercase;
     }
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
+    h3{
+     font-family: 'Exo', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;   
     }
-    .device-container {
-        margin-bottom: 0px;
-        @media(min-width: 992px) {
-           
-        }
+   
 
-    }
     @media(min-width: 768px) {
-    h1 {
-        position: relative;
-        right: 250px;
-        top: 30px;
-        font-family: 'Calligraffitti', cursive;
-        font-size: 10rem;
-        font-weight: 800;
-        
-    }
+
     h2 {
-        color:red;
         font-family: 'Exo', sans-serif;
         font-size: 3rem;
         line-height: 4.5rem;
         font-weight: 800;
         text-transform: uppercase;
     }
-    
-}
-    .feature-item {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        text-align: center;
-        h3 {
-            font-size: 20px;
-        }
-        i {
-            font-size: 60px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+    h3{
+      font-family: 'Exo', sans-serif;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        font-weight: 600;
+        text-transform: uppercase;  
     }
+   
+}
+   
 }
