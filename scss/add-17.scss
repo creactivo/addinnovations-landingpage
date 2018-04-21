@@ -1,21 +1,15 @@
 // Styling for the features
 section.add-17 {
     background-color:#ff7f00 !important;
-    h1 {
-        font-family: 'Calligraffitti', cursive;
-        font-size: 3.5rem;
-        font-weight: 800;
-        color:#fff;
-    }
     h2 {
         font-family: 'Exo', sans-serif;
-        color: #000;
+        color: #fff;
         font-size: 3rem;
         font-weight: 800;
         text-transform: uppercase;
     }
     span{
-    font-family: 'Exo', sans-serif;
+        font-family: 'Exo', sans-serif;
         color: #000;
         font-size: 3rem;
         font-weight: 800;
@@ -26,26 +20,23 @@ section.add-17 {
     }
 
     @media(min-width: 768px) {
-    h2 {margin-top:100px;
+    h2 {
         color:#fff;
         font-family: 'Exo', sans-serif;
         font-size: 2rem;
         font-weight: 800;
         text-transform: uppercase;
-         i{
-            font-size:9rem;
-            margin-top: -131%;
-            line-height: 9rem;
-        }
 
     }
     span{
-        margin-top:100px;
         color:balck;
         font-family: 'Exo', sans-serif;
         font-size: 3rem;
         font-weight: 800;
         text-transform: uppercase;
+    }
+    .17tf{
+        color: red;
     }
 }
 }

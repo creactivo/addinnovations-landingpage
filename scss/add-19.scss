@@ -1,6 +1,13 @@
 // Styling for the features
 section.add-19 {
-    background-color:#fff !important;
+    background-attachment: cover;
+    background: -moz-radial-gradient(center, ellipse cover, #233f70 3%, #120f0f 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #233f70 3%,#120f0f 100%);
+    background: radial-gradient(ellipse at center, #233f70 3%,#120f0f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233f70', endColorstr='#120f0f',GradientType=1);
+    background-size: inherit;   
+    position: relative;
+    padding:0;
     h2 {
         font-family: 'Exo', sans-serif;
         color: red;
@@ -33,13 +40,7 @@ section.add-19 {
         font-weight: 600;
         text-transform: uppercase;  
     }
-    .clock{
-        font-family: 'Exo', sans-serif;
-        color: red;
-        font-size: 2rem;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
+   
 }
    
 }
