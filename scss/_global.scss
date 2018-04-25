@@ -72,3 +72,25 @@ section {
         font-size:2rem;
     }
 }
+
+.img2{
+        visibility: visible;
+        display: initial;
+        }
+.img1{
+        visibility: collapse;
+        display: none;
+        }        
+
+
+
+@media (min-width: 576px) {
+        .img2{
+            visibility: collapse;
+            display: none;
+        }
+        .img1{
+            visibility: visible;
+            display: initial;
+        }
+    }

@@ -48,6 +48,7 @@ function cronometro () {
 }
 
 var getCrono = function(horas, minutos, segundos){
+	document.getElementById("17tf").innerHTML = horas +":"+ minutos +":"+ segundos;
 	return horas +":"+ minutos +":"+ segundos
 }
 
